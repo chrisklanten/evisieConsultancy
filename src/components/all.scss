@@ -1,0 +1,52 @@
+@tailwind base;
+
+h1 {
+	@apply text-2xl;
+}
+h2 {
+	@apply text-xl;
+}
+h3 {
+	@apply text-lg;
+}
+a {
+	@apply text-blue-600 underline;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+.navbar-item {
+	@apply no-underline text-black hidden py-1;
+
+	&:hover {
+		@apply underline;
+	}
+}
+@screen sm {
+	.navbar-item {
+		@apply inline-block px-4 py-0;
+	}
+}
+
+.is-active {
+	.navbar-item {
+		@apply block;
+	}
+
+	@screen sm {
+		.navbar-item {
+			@apply inline-block;
+		}
+	}
+}
+
+* {
+	font-family: "Open Sans", sans-serif;
+}
+
+@tailwind components;
+
+@tailwind utilities;
