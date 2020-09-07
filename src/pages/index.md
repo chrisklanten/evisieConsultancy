@@ -1,9 +1,11 @@
 ---
+heading: Great coffee with a conscience
+mainImage: /img/laptop.png
+subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
 title: Evisie Consultancy
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+mainText: Bla bla
+cta: Ja ik wil meer tijd
 mainpitch:
   title: Why Kaldi
   description: >
@@ -66,4 +68,5 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+image: /img/home-jumbotron.jpg
 ---
