@@ -128,7 +128,7 @@ HomePageTemplate.propTypes = {
 
 const HomePage = ({ data }) => {
   console.log(data);
-  const { frontmatter } = data.markdownRemark;
+  const { frontmatter } = data.index;
 
   return (
     <Layout>
@@ -164,7 +164,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    index: markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+    index: markdownRemark(frontmatter: { templateKey: { eq: "home-page" } }) {
       frontmatter {
         title
         mainImage {
