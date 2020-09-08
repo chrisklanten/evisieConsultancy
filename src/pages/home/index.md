@@ -27,5 +27,5 @@ reviews:
       logo: /img/coffee.png
 contact:
   title: Contact openemen
-  intro: Benieuwd wat Evisie kan betekenen voor je bedrijf?
+  intro: Benieuwd wat Evisie kan betekenen voor je bedrijf
 ---
