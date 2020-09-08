@@ -157,14 +157,7 @@ export default HomePage;
 
 export const pageQuery = graphql`
   query HomePageTemplate {
-    reviews: markdownRemark(
-      frontmatter: { templateKey: { eq: "review-block" } }
-    ) {
-      frontmatter {
-        title
-      }
-    }
-    index: markdownRemark(frontmatter: { templateKey: { eq: "home-page" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "home-page" } }) {
       frontmatter {
         title
         mainImage {
