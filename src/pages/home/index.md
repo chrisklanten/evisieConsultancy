@@ -1,4 +1,5 @@
 ---
+templateKey: "home-page"
 intro:
   title: Zo houd je tijd over voor andere zaken
   mainImage: /img/laptop.png

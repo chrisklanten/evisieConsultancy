@@ -42,7 +42,7 @@ collections:
         label: "Home pagina"
         name: "home"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
           - {label: Intro, name: intro, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Hoofd afbeelding, name: mainImage, widget: image},{label: Hoofd tekst, name: mainText, widget: text},{label: Call to action, name: cta, widget: string}]}
           - {label: Diensten Block, name: servicesBlock, widget: object, fields: [{label: Titel, name: title, widget: string}, {label: Introtekst, name: intro, widget: string}, {label: Diensten, name: services, widget: list, fields: [{label: Titel, name: title, widget: string}, {label: Broodtekst, name: breadtext, widget: string}]}]}
           - {label: Over Evisie, name: about, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Afbeelding, name: aboutImage, widget: image},{label: Over Evisie tekst, name: mainText, widget: text}]}
