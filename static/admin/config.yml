@@ -27,7 +27,17 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       
-  
+  - name: "elements"
+    label: "Elementen"
+    files:
+      - file: "src/blocks/reviews/index.md"
+        label: "Reviews"
+        name: "reviews"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "review-block"}
+          - {label: Titel, name: title, widget: string}
+          - {label: Reviews, name: reviews, widget: list, fields: [{label: Logo, name: logo, widget: image}, {label: Review, name: review, widget: text}, {label: Naam, name: name, widget: string}, {label: Functie, name: job, widget: string}]}
+
   - name: "pages"
     label: "Pagina's"
     files:

@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 
-export const IndexPageTemplate = ({
+export const HomePageTemplate = ({
   image,
   title,
   heading,
@@ -114,7 +114,7 @@ export const IndexPageTemplate = ({
   </div>
 );
 
-IndexPageTemplate.propTypes = {
+HomePageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -126,13 +126,13 @@ IndexPageTemplate.propTypes = {
   }),
 };
 
-const IndexPage = ({ data }) => {
+const HomePage = ({ data }) => {
   console.log(data);
   const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
-      <IndexPageTemplate
+      <HomePageTemplate
         image={frontmatter.mainImage}
         title={frontmatter.title}
         heading={frontmatter.mainText}
@@ -145,7 +145,7 @@ const IndexPage = ({ data }) => {
   );
 };
 
-IndexPage.propTypes = {
+HomePage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -153,10 +153,10 @@ IndexPage.propTypes = {
   }),
 };
 
-export default IndexPage;
+export default HomePage;
 
 export const pageQuery = graphql`
-  query IndexPageTemplate {
+  query HomePageTemplate {
     reviews: markdownRemark(
       frontmatter: { templateKey: { eq: "review-block" } }
     ) {
