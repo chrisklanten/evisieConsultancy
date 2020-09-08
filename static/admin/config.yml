@@ -30,7 +30,7 @@ collections:
   - name: "elements"
     label: "Elementen"
     files:
-      - file: "src/pages/reviews/index.md"
+      - file: "src/blocks/reviews/index.md"
         label: "Reviews"
         name: "reviews"
         fields:
