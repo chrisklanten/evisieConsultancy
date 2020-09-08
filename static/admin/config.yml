@@ -26,47 +26,28 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
-      
-  - name: "elements"
-    label: "Elementen"
-    files:
-      - file: "src/blocks/reviews/index.md"
-        label: "Reviews"
-        name: "reviews"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "review-block"}
-          - {label: Titel, name: title, widget: string}
-          - {label: Reviews, name: reviews, widget: list, fields: [{label: Logo, name: logo, widget: image}, {label: Review, name: review, widget: text}, {label: Naam, name: name, widget: string}, {label: Functie, name: job, widget: string}]}
 
   - name: "pages"
     label: "Pagina's"
     files:
-      - file: "src/pages/index.md"
-        label: "Home pagina"
-        name: "index"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Titel, name: title, widget: string}
-          - {label: Hoofd afbeelding, name: mainImage, widget: image}
-          - {label: Hoofd tekst, name: mainText, widget: string}
-          - {label: Call to action, name: cta, widget: string}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+      # - file: "src/pages/index.md"
+      #   label: "Index pagina"
+      #   name: "index"
+      #   fields:
+      #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
+      #     - {label: Intro, name: intro, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Hoofd afbeelding, name: mainImage, widget: image},{label: Hoofd tekst, name: mainText, widget: text},{label: Call to action, name: cta, widget: string}]}
+      #     - {label: Dienst Block, name: servicesBlock, widget: object, fields: [{label: Titel, name: title, widget: string}, {label: Introtekst, name: intro, widget: string}, {label: Diensten, name: services, widget: list, fields: [{label: Titel, name: title, widget: string}, {label: Broodtekst, name: breadtext, widget: string}]}]}
+      #     - {label: Reviews, name: reviews, widget: list, fields: [{label: Titel, name: title, widget: string}, {label: Logo, name: logo, widget: image},{label: Review, name: review, widget: text},{label: Naam, name: name, widget: string},{label: Functie, name: job, widget: string}]}
       - file: "src/pages/home/index.md"
         label: "Home pagina"
         name: "home"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
-          - {label: Titel, name: title, widget: string}
-          - {label: Hoofd afbeelding, name: mainImage, widget: image}
-          - {label: Hoofd tekst, name: mainText, widget: string}
-          - {label: Call to action, name: cta, widget: string}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
+          - {label: Intro, name: intro, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Hoofd afbeelding, name: mainImage, widget: image},{label: Hoofd tekst, name: mainText, widget: text},{label: Call to action, name: cta, widget: string}]}
+          - {label: Diensten Block, name: servicesBlock, widget: object, fields: [{label: Titel, name: title, widget: string}, {label: Introtekst, name: intro, widget: string}, {label: Diensten, name: services, widget: list, fields: [{label: Titel, name: title, widget: string}, {label: Broodtekst, name: breadtext, widget: string}]}]}
+          - {label: Over Evisie, name: about, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Afbeelding, name: aboutImage, widget: image},{label: Over Evisie tekst, name: mainText, widget: text}]}
+          - {label: Review block, name: reviews, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Reviews, name: reviews, widget: list, fields: [{label: Titel, name: title, widget: string}, {label: Logo, name: logo, widget: image},{label: Review, name: review, widget: text},{label: Naam, name: name, widget: string},{label: Functie, name: job, widget: string}]}]}
+          - {label: Contact, name: contact, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Tekst, name: intro, widget: text}]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
