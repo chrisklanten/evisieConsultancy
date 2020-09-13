@@ -26,7 +26,7 @@ export const IndexPageTemplate = () => (
 // };
 
 const IndexPage = () => {
-  //const { frontmatter } = data.markdownRemark;
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
@@ -53,10 +53,13 @@ IndexPage.propTypes = {
 
 export default IndexPage;
 
-// export const pageQuery = graphql`
-//   query IndexPageTemplate {
-//     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-//       templateKey
-//     }
-//   }
-// `;
+export const pageQuery = graphql`
+  query IndexPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      templateKey
+      frontmatter {
+        title
+      }
+    }
+  }
+`;

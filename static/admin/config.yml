@@ -30,14 +30,12 @@ collections:
   - name: "pages"
     label: "Pagina's"
     files:
-      # - file: "src/pages/index.md"
-      #   label: "Index pagina"
-      #   name: "index"
-      #   fields:
-      #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-      #     - {label: Intro, name: intro, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Hoofd afbeelding, name: mainImage, widget: image},{label: Hoofd tekst, name: mainText, widget: text},{label: Call to action, name: cta, widget: string}]}
-      #     - {label: Dienst Block, name: servicesBlock, widget: object, fields: [{label: Titel, name: title, widget: string}, {label: Introtekst, name: intro, widget: string}, {label: Diensten, name: services, widget: list, fields: [{label: Titel, name: title, widget: string}, {label: Broodtekst, name: breadtext, widget: string}]}]}
-      #     - {label: Reviews, name: reviews, widget: list, fields: [{label: Titel, name: title, widget: string}, {label: Logo, name: logo, widget: image},{label: Review, name: review, widget: text},{label: Naam, name: name, widget: string},{label: Functie, name: job, widget: string}]}
+      - file: "src/pages/index.md"
+        label: "Index pagina"
+        name: "index"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
+          - {label: "Title", name: "title", widget: "string"}
       - file: "src/pages/home/index.md"
         label: "Home pagina"
         name: "home"
