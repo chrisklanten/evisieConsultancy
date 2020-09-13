@@ -1,7 +1,8 @@
 ---
 templateKey: about-page
 path: /about
-title: Zo houd jij tijd over voor andere zaken.
+title: Over Evisie Consultancy
+subtitle: Zo houd jij tijd over voor andere zaken.
 introText:
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
   eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam

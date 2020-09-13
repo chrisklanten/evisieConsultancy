@@ -4,19 +4,12 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
-export const AboutPageTemplate = ({ title }) => {
+export const AboutPageTemplate = ({ title, subtitle, introText, page }) => {
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-            </div>
-          </div>
-        </div>
+    <section className="bg-evisie-gray">
+      <div className="container max-w-lg py-16">
+        <h1 className="">{subtitle}</h1>
+        <p>{introText}</p>
       </div>
     </section>
   );
@@ -24,14 +17,21 @@ export const AboutPageTemplate = ({ title }) => {
 
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  introText: PropTypes.string.isRequired,
+  page: PropTypes.array,
 };
 
 const AboutPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
+  console.log(frontmatter);
 
   return (
     <Layout>
-      <AboutPageTemplate title={frontmatter.title} />
+      <AboutPageTemplate
+        title={frontmatter.title}
+        introText={frontmatter.introText}
+        page={frontmatter.page}
+      />
     </Layout>
   );
 };
@@ -47,6 +47,15 @@ export const aboutPageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "about-page" } }) {
       frontmatter {
         title
+        subtitle
+        introText
+        page {
+          title
+          columns {
+            text
+            foto
+          }
+        }
       }
     }
   }
