@@ -71,4 +71,4 @@ collections:
                 required: false
                 fields:
                   - { label: 'Titel', name: 'title', widget: 'string', required: false }
-                  - {label: Kolommen, name: columns, widget: list, fields: [{label: Foto, name: foto, widget: image}]}
+                  - {label: Kolommen, name: fotos, widget: list, fields: [{label: Foto, name: foto, widget: image}]}

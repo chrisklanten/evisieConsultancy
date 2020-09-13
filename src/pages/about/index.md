@@ -63,14 +63,14 @@ page:
           sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.
   - type: foto_block
     title: Foto block
-    columns:
+    fotos:
       - foto: /img/blog-index.jpg
       - foto: /img/flavor_wheel.jpg
   - type: foto_block
-    columns:
+    fotos:
       - foto: /img/jumbotron.jpg
   - type: foto_block
-    columns:
+    fotos:
       - foto: /img/chemex.jpg
       - foto: /img/blog-index.jpg
       - foto: /img/flavor_wheel.jpg

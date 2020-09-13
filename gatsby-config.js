@@ -4,17 +4,6 @@ module.exports = {
     description: "Evisie Consultancy",
   },
   plugins: [
-    "gatsby-plugin-postcss",
-    "gatsby-plugin-react-helmet",
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        postCssPlugins: [
-          require("tailwindcss"),
-          require("./tailwind.config.js"), // Optional: Load custom Tailwind CSS configuration
-        ],
-      },
-    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: "gatsby-source-filesystem",
@@ -64,6 +53,17 @@ module.exports = {
               destinationDir: "static",
             },
           },
+        ],
+      },
+    },
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        postCssPlugins: [
+          require("tailwindcss"),
+          require("./tailwind.config.js"), // Optional: Load custom Tailwind CSS configuration
         ],
       },
     },
