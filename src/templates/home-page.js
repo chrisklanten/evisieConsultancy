@@ -190,7 +190,7 @@ export const HomePageTemplate = ({
         >
           <div className="w-full">
             <h3>{contact.title}</h3>
-            <p className="mb-6">{contact.intro}</p>
+            <p className="mb-6">{contact.introText}</p>
             <ul>
               <li className="text-black font-bold flex items-center mb-2">
                 <FaMapMarkerAlt className="text-evisie-yellow" />
@@ -326,7 +326,7 @@ export const pageQuery = graphql`
         }
         contact {
           title
-          intro
+          introText
         }
       }
     }
