@@ -52,6 +52,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
+          - { label: 'Subtitel', name: 'subtitle', widget: 'string', required: false }
           - {label: "Intro", name: "introText", widget: "markdown"}
           - label: 'Pagina'
             name: 'page'
@@ -63,7 +64,6 @@ collections:
                 required: false
                 fields:
                   - { label: 'Titel', name: 'title', widget: 'string', required: false }
-                  - { label: 'Subtitel', name: 'subtitle', widget: 'string', required: false }
                   - {label: Kolommen, name: columns, widget: list, fields: [{label: Tekst, name: text, widget: markdown}]}
               - label: 'Foto blok'
                 name: 'foto_block'

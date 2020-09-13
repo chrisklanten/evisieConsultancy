@@ -17,6 +17,7 @@ export const AboutPageTemplate = ({ title, subtitle, introText, page }) => {
 
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
   introText: PropTypes.string.isRequired,
   page: PropTypes.array,
 };
@@ -28,6 +29,7 @@ const AboutPage = ({ data }) => {
   return (
     <Layout>
       <AboutPageTemplate
+        subtitle={frontmatter.subtitle}
         title={frontmatter.title}
         introText={frontmatter.introText}
         page={frontmatter.page}
