@@ -10,7 +10,7 @@ intro:
   cta: Ja, ik wil meer tijd!
 servicesBlock:
   title: Diensten
-  intro: bla bla deinsten
+  introText: bla bla deinsten
   services:
     - title: Implementatie AFAS HRM/Payroll
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -36,7 +36,8 @@ reviews:
   title: Wat zegen klanten over Evisie Consultancy?
   reviews:
     - title: review
-      review: Evisie Consultancy heeft ons uitstekend geholpen met het automatiseren
+      review:
+        Evisie Consultancy heeft ons uitstekend geholpen met het automatiseren
         van onze interne HR processen.
       name: Chris
       job: develeoper

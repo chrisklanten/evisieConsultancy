@@ -84,7 +84,7 @@ export const HomePageTemplate = ({
     <section className="bg-evisie-gray py-10">
       <div className="container text-center">
         <h2>{services.title}</h2>
-        <p>{services.intro}</p>
+        <p>{services.introText}</p>
         <div className="flex items-stretch justify-center mt-4 flex-wrap">
           {services.services.map((service, i) => (
             <div
@@ -291,7 +291,7 @@ export const pageQuery = graphql`
         }
         servicesBlock {
           title
-          intro
+          introText
           services {
             title
             breadtext
