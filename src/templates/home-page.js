@@ -4,23 +4,16 @@ import { graphql, Link } from "gatsby";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FaMapMarkerAlt, FaPhoneAlt, FaLinkedin } from "react-icons/fa";
 
 // Import Swiper styles
 import "swiper/swiper.scss";
 
 import Layout from "../components/Layout";
-import ContactForm from "../pages/contact/index";
 import arrowsRight from "../img/arrows-right-4.svg";
 import arrowsBottom from "../img/arrows-bottom.svg";
+import Contact from "../components/Contact";
 
-export const HomePageTemplate = ({
-  intro,
-  about,
-  reviews,
-  services,
-  contact,
-}) => (
+export const HomePageTemplate = ({ intro, about, reviews, services }) => (
   <div>
     <section className="flex flex-col sm:flex-row items-stretch relative">
       <img
@@ -178,53 +171,7 @@ export const HomePageTemplate = ({
         </Swiper>
       </div>
     </section>
-
-    <section id="contact" className="-mt-6 px-8 sm:px-0 relative">
-      <div className="container box-border sm:mx-auto">
-        <div
-          data-sal="slide-up"
-          data-sal-delay="100"
-          data-sal-easing="ease"
-          data-sal-duration="600"
-          className="rounded-sm shadow-md  p-8 sm:p-16 bg-white sm:flex"
-        >
-          <div className="w-full">
-            <h3>{contact.title}</h3>
-            <p className="mb-6">{contact.introText}</p>
-            <ul>
-              <li className="text-black font-bold flex items-center mb-2">
-                <FaMapMarkerAlt className="text-evisie-yellow" />
-                &nbsp;&nbsp;Pierrestraat 23 6471 KH Eygelshoven
-              </li>
-              <li className="text-black font-bold flex items-center mb-2">
-                <FaPhoneAlt className="text-evisie-yellow" />
-                &nbsp;&nbsp;
-                <a
-                  target="_blank"
-                  className="no-underline text-black font-bold flex items-center"
-                  href="tel:+31627201455"
-                >
-                  06 27201455
-                </a>
-              </li>
-              <li className="text-black font-bold mb-2">
-                <a
-                  target="_blank"
-                  className="no-underline text-black font-bold flex items-center"
-                  href="https://www.linkedin.com/in/evelien-heckman-8562aa43/"
-                >
-                  <FaLinkedin className="text-evisie-yellow" />
-                  &nbsp;&nbsp;Connect op Linkedin
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="w-full">
-            <ContactForm />
-          </div>
-        </div>
-      </div>
-    </section>
+    <Contact />
   </div>
 );
 
@@ -233,7 +180,6 @@ HomePageTemplate.propTypes = {
   about: PropTypes.object,
   reviews: PropTypes.object,
   services: PropTypes.object,
-  contact: PropTypes.object,
 };
 
 const HomePage = ({ data }) => {
@@ -247,7 +193,6 @@ const HomePage = ({ data }) => {
         about={frontmatter.about}
         reviews={frontmatter.reviews}
         services={frontmatter.servicesBlock}
-        contact={frontmatter.contact}
       />
     </Layout>
   );
@@ -274,7 +219,7 @@ export default HomePage;
 // `;
 
 export const pageQuery = graphql`
-  query HomePageTemplate {
+  query GetContactBlock {
     markdownRemark(frontmatter: { templateKey: { eq: "home-page" } }) {
       frontmatter {
         intro {
@@ -323,10 +268,6 @@ export const pageQuery = graphql`
               }
             }
           }
-        }
-        contact {
-          title
-          introText
         }
       }
     }
