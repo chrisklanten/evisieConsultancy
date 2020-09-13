@@ -43,7 +43,7 @@ collections:
         name: "home"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Hoofd afbeelding, name: mainImage, widget: image},{label: Hoofd tekst, name: mainText, widget: text},{label: Call to action, name: cta, widget: string}]}
+          - {label: Intro, name: introBlock, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Hoofd afbeelding, name: mainImage, widget: image},{label: Hoofd tekst, name: mainText, widget: text},{label: Call to action, name: cta, widget: string}]}
           - {label: Diensten Block, name: servicesBlock, widget: object, fields: [{label: Titel, name: title, widget: string}, {label: Introtekst, name: intro, widget: string}, {label: Diensten, name: services, widget: list, fields: [{label: Titel, name: title, widget: string}, {label: Broodtekst, name: breadtext, widget: string}]}]}
           - {label: Over Evisie, name: about, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Afbeelding, name: aboutImage, widget: image},{label: Over Evisie tekst, name: mainText, widget: markdown}]}
           - {label: Review block, name: reviews, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Reviews, name: reviews, widget: list, fields: [{label: Titel, name: title, widget: string}, {label: Logo, name: logo, widget: image},{label: Review, name: review, widget: text},{label: Naam, name: name, widget: string},{label: Functie, name: job, widget: string}]}]}
@@ -54,7 +54,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Intro", name: "intro", widget: "markdown"}
+          - {label: "Intro", name: "introText", widget: "markdown"}
           - label: 'Pagina'
             name: 'page'
             widget: 'list'
