@@ -25,7 +25,7 @@ export const IndexPageTemplate = () => (
 // 	}),
 // };
 
-const IndexPage = () => {
+const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (

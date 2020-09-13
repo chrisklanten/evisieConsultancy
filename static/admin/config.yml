@@ -52,7 +52,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Intro", name: "intro", widget: "markdown"}
+          - {label: "Intro", name: "introText", widget: "markdown"}
           - label: 'Pagina'
             name: 'page'
             widget: 'list'
