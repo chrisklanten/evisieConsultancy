@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import Content, { HTMLContent } from "../components/Content";
 import arrowsRight from "../img/arrows-right-white.svg";
 import Contact from "../components/Contact";
 
@@ -121,7 +120,7 @@ export const aboutPageQuery = graphql`
           fotos {
             foto {
               childImageSharp {
-                fluid(maxWidth: 1000, quality: 95) {
+                fluid(maxWidth: 750, quality: 80) {
                   ...GatsbyImageSharpFluid
                 }
               }
