@@ -2,7 +2,7 @@
 templateKey: home-page
 intro:
   title: Zo houd je tijd over voor andere zaken
-  mainImage: /img/laptop.png
+  mainImage: /img/evisie_consultancy_byliekevroomen-6.jpg
   mainText: |-
     Ik help bedrijven met ondersteuning, begeleiding en
     optimalisatie van AFAS HRM/Payroll. En hier kan nog meer
@@ -36,8 +36,7 @@ reviews:
   title: Wat zegen klanten over Evisie Consultancy?
   reviews:
     - title: review
-      review:
-        Evisie Consultancy heeft ons uitstekend geholpen met het automatiseren
+      review: Evisie Consultancy heeft ons uitstekend geholpen met het automatiseren
         van onze interne HR processen.
       name: Chris
       job: develeoper
