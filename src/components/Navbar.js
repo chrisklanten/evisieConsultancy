@@ -54,7 +54,7 @@ const Navbar = class extends React.Component {
       >
         <div className="menuContainer mx-auto block sm:flex items-center px-6 lg:px-0">
           <div className="navbar-brand flex items-center">
-            <Link to="/" className="" title="Logo">
+            <Link to="/home" className="" title="Logo">
               <img
                 src={logo}
                 alt="Evisie Consultancy"
@@ -78,7 +78,7 @@ const Navbar = class extends React.Component {
             className={`ml-auto flex ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item px-3 pt-4 sm:pt-0" to="/">
+              <Link className="navbar-item px-3 pt-4 sm:pt-0" to="/home">
                 Home
               </Link>
               <Link className="navbar-item px-3" to="/diensten">
