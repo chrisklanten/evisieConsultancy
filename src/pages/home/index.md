@@ -16,7 +16,7 @@ servicesBlock:
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     - title: Functioneel beheer
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - title: Proces- optimalisatie
+    - title: Procesoptimalisatie
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     - title: Projectleiding
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
