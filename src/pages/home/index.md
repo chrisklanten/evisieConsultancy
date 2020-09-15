@@ -42,9 +42,16 @@ reviews:
       review: Evisie Consultancy heeft ons uitstekend geholpen met het automatiseren
         van onze interne HR processen.
       name: Chris
-      job: develeoper
+      job: developer
       logo: /img/coffee.png
+    - title: review
+      review: Evisie Consultancy heeft ons uitstekend geholpen met het automatiseren
+        van onze interne HR processen.
+      logo: /img/apple-touch-icon.png
+      name: Chris
+      job: Developer
 contact:
   title: Contact openemen
-  introText: Benieuwd wat Evisie kan betekenen voor je bedrijf
+  introText: Benieuwd wat Evisie kan betekenen voor je bedrijf? Neem dan contact
+    op, ik help je graag!
 ---
