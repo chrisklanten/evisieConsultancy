@@ -1,10 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
-
-import Layout from "../components/Layout";
-import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
+import { graphql } from "gatsby";
 import logo from "../img/logo.svg";
 
 export const IndexPageTemplate = () => (
@@ -26,7 +22,7 @@ export const IndexPageTemplate = () => (
 // };
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+  //const { frontmatter } = data.markdownRemark;
 
   return (
     // <Layout>

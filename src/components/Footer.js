@@ -15,6 +15,7 @@ const Footer = class extends React.Component {
                 title="webdesigner rotterdam freelance"
                 href="https://www.chrisonline.nl"
                 target="_blank"
+                rel="noreferrer"
                 className="no-underline hover:underline text-blue-500"
               >
                 Chris Online

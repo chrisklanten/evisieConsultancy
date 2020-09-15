@@ -41,6 +41,7 @@ class Contact extends React.Component {
                     target="_blank"
                     className="no-underline text-black font-bold flex items-center"
                     href="tel:+31627201455"
+                    rel="noreferrer"
                   >
                     06 27201455
                   </a>
@@ -50,6 +51,7 @@ class Contact extends React.Component {
                     target="_blank"
                     className="no-underline text-black font-bold flex items-center"
                     href="https://www.linkedin.com/in/evelien-heckman-8562aa43/"
+                    rel="noreferrer"
                   >
                     <FaLinkedin className="text-evisie-yellow" />
                     &nbsp;&nbsp;Connect op Linkedin

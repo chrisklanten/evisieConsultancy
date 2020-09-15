@@ -65,7 +65,10 @@ const Navbar = class extends React.Component {
             <div
               className={`ml-auto sm:hidden ${this.state.navBarActiveClass}`}
               data-target="navMenu"
+              role="button"
+              tabindex={"0"}
               onClick={() => this.toggleHamburger()}
+              onKeyDown={() => this.toggleHamburger()}
             >
               <BiMenu className="text-2xl" />
             </div>

@@ -12,6 +12,7 @@ import Layout from "../components/Layout";
 import arrowsRight from "../img/arrows-right-4.svg";
 import arrowsBottom from "../img/arrows-bottom.svg";
 import Contact from "../components/Contact";
+import Services from "../components/Services";
 
 export const HomePageTemplate = ({ intro, about, reviews, services }) => (
   <div>
@@ -20,6 +21,7 @@ export const HomePageTemplate = ({ intro, about, reviews, services }) => (
         src={arrowsRight}
         id="symbol"
         className="left-auto top-auto hidden sm:block z-10"
+        alt=""
       />
       <div className="w-full">
         <div className="p-6 ml-auto py-10 sm:py-20 max-w-lg mr-16">
@@ -70,33 +72,12 @@ export const HomePageTemplate = ({ intro, about, reviews, services }) => (
           src={arrowsBottom}
           id="symbol-mobile"
           className="mr-6 block sm:hidden w-32"
+          alt=""
         />
       </div>
     </section>
 
-    <section className="bg-evisie-gray py-10">
-      <div className="container text-center">
-        <h2>{services.title}</h2>
-        <p>{services.introText}</p>
-        <div className="flex items-stretch justify-center mt-4 flex-wrap">
-          {services.services.map((service, i) => (
-            <div
-              data-sal="slide-up"
-              data-sal-delay={i * 150}
-              data-sal-easing="ease"
-              data-sal-duration="600"
-              className="service bg-white py-6 px-4 flex flex-col mr-4 mb-4 justify-center max-w-xs w-full rounded-sm"
-              key={service.title}
-            >
-              <h3 className="text-evisie-yellow font-bold text-lg">
-                {service.title}
-              </h3>
-              <p className="text-sm">{service.breadtext}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+    <Services />
 
     <section className="flex flex-col sm:flex-row items-stretch relative">
       <div
@@ -116,12 +97,14 @@ export const HomePageTemplate = ({ intro, about, reviews, services }) => (
           src={arrowsBottom}
           id="symbol-mobile"
           className="mr-6 block sm:hidden w-32"
+          alt=""
         />
       </div>
       <img
         src={arrowsRight}
         id="symbol"
         className="left-auto top-auto hidden sm:block z-10"
+        alt=""
       />
       <div className="w-full">
         <div className="p-6 ml-12 py-10 sm:py-20 max-w-lg mr-12">
@@ -152,6 +135,7 @@ export const HomePageTemplate = ({ intro, about, reviews, services }) => (
                     : review.logo
                 }
                 className="reviewLogo h-12 mx-auto"
+                alt={review.name}
               />
               <p className="py-8 text-sm">{review.review}</p>
 
@@ -232,14 +216,6 @@ export const pageQuery = graphql`
                 ...GatsbyImageSharpFluid
               }
             }
-          }
-        }
-        servicesBlock {
-          title
-          introText
-          services {
-            title
-            breadtext
           }
         }
         about {

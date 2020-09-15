@@ -34,6 +34,8 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^6.0.0",
     "react-icons": "^3.11.0",
+    "react-slugify": "^2.0.2",
+    "slugify": "^1.4.5",
     "swiper": "^6.2.0",
     "tailwindcss": "^1.7.6",
     "uuid": "^7.0.0"

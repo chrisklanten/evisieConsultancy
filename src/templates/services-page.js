@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import arrowsRight from "../img/arrows-right-white.svg";
 import Contact from "../components/Contact";
+import slugify from "react-slugify";
 
 export const ServicesPageTemplate = ({ title, subtitle, introText, page }) => {
   return (
@@ -40,7 +41,9 @@ export const ServicesPageTemplate = ({ title, subtitle, introText, page }) => {
         <div className="container max-w-3xl py-16 px-6 md:px-0">
           {page.map((block) => (
             <div>
-              <h2 className="text-black">{block.title}</h2>
+              <h2 id={slugify(block.title)} className="text-black">
+                {block.title}
+              </h2>
               <div className="flex">
                 {block.columns
                   ? block.columns.map((column, i) => (
@@ -79,24 +82,24 @@ export const ServicesPageTemplate = ({ title, subtitle, introText, page }) => {
   );
 };
 
-// ServicesPageTemplate.propTypes = {
-//   title: PropTypes.string.isRequired,
-//   subtitle: PropTypes.string.isRequired,
-//   introText: PropTypes.string.isRequired,
-//   page: PropTypes.array,
-// };
+ServicesPageTemplate.propTypes = {
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  introText: PropTypes.string.isRequired,
+  page: PropTypes.array,
+};
 
 const ServicesPage = ({ data }) => {
-  //const { frontmatter } = data.markdownRemark;
-  //console.log(frontmatter);
+  const { frontmatter } = data.markdownRemark;
+  console.log(frontmatter);
 
   return (
     <Layout>
       <ServicesPageTemplate
-      // subtitle={frontmatter.subtitle}
-      // title={frontmatter.title}
-      // introText={frontmatter.introText}
-      // page={frontmatter.page}
+        subtitle={frontmatter.subtitle}
+        title={frontmatter.title}
+        introText={frontmatter.introText}
+        page={frontmatter.page}
       />
     </Layout>
   );
