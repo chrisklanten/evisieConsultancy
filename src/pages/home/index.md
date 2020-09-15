@@ -39,13 +39,15 @@ reviews:
   title: Wat zegen klanten over Evisie Consultancy?
   reviews:
     - title: review
-      review: Evisie Consultancy heeft ons uitstekend geholpen met het automatiseren
+      review:
+        Evisie Consultancy heeft ons uitstekend geholpen met het automatiseren
         van onze interne HR processen.
       name: Chris
       job: developer
-      logo: /img/coffee.png
+      logo: /img/apple-touch-icon.png
     - title: review
-      review: Evisie Consultancy heeft ons uitstekend geholpen met het automatiseren
+      review:
+        Evisie Consultancy heeft ons uitstekend geholpen met het automatiseren
         van onze interne HR processen.
       logo: /img/apple-touch-icon.png
       name: Chris
