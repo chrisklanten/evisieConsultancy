@@ -10,7 +10,7 @@ intro:
   cta: Ja, ik wil meer tijd!
 servicesBlock:
   title: Diensten
-  introText: bla bla deinsten
+  introText: Benieuwd waar Evisie bij kan helpen? Bekijk onze diensten!
   services:
     - title: Implementatie AFAS HRM/Payroll
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -24,7 +24,7 @@ servicesBlock:
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 about:
   title: Over Evisie Consultancy
-  aboutImage: /img/blog-index.jpg
+  aboutImage: /img/evisie_consultancy_byliekevroomen-3.jpg
   mainText: >-
     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
     eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
