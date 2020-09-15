@@ -31,8 +31,8 @@ collections:
           - {label: Over Evisie, name: about, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Afbeelding, name: aboutImage, widget: image},{label: Over Evisie tekst, name: mainText, widget: markdown}]}
           - {label: Review block, name: reviews, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Reviews, name: reviews, widget: list, fields: [{label: Titel, name: title, widget: string}, {label: Logo, name: logo, widget: image},{label: Review, name: review, widget: text},{label: Naam, name: name, widget: string},{label: Functie, name: job, widget: string}]}]}
           - {label: Contact, name: contact, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Tekst, name: introText, widget: text}]}
-      - file: "src/pages/about/index.md"
-        label: "About"
+      - file: "src/pages/over-evisie/index.md"
+        label: "Over Evisie Consultancy"
         name: "about"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
