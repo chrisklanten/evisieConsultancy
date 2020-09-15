@@ -72,3 +72,29 @@ collections:
                 fields:
                   - { label: 'Titel', name: 'title', widget: 'string', required: false }
                   - {label: Kolommen, name: fotos, widget: list, fields: [{label: Foto, name: foto, widget: image}]}
+      - file: "src/pages/diensten/index.md"
+        label: "Diensten"
+        name: "services"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "services-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - { label: 'Subtitel', name: 'subtitle', widget: 'string', required: false }
+          - {label: "Intro", name: "introText", widget: "markdown"}
+          - label: 'Pagina'
+            name: 'page'
+            widget: 'list'
+            types:
+              - label: 'Tekst blok'
+                name: 'text_block'
+                widget: 'object'
+                required: false
+                fields:
+                  - { label: 'Titel', name: 'title', widget: 'string', required: false }
+                  - {label: Kolommen, name: columns, widget: list, fields: [{label: Tekst, name: text, widget: markdown}]}
+              - label: 'Foto blok'
+                name: 'foto_block'
+                widget: 'object'
+                required: false
+                fields:
+                  - { label: 'Titel', name: 'title', widget: 'string', required: false }
+                  - {label: Kolommen, name: fotos, widget: list, fields: [{label: Foto, name: foto, widget: image}]}
