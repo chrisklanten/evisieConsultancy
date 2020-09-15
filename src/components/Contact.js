@@ -26,17 +26,17 @@ class Contact extends React.Component {
             data-sal-duration="300"
             className="rounded-sm shadow-2xl p-8 sm:p-16 bg-white sm:flex"
           >
-            <div className="w-full">
+            <div className="w-full mr-3">
               <h3>{contact.title}</h3>
               <p className="mb-6">{contact.introText}</p>
               <ul>
                 <li className="text-black font-bold flex items-center mb-2">
-                  <FaMapMarkerAlt className="text-evisie-yellow" />
-                  &nbsp;&nbsp;Pierrestraat 23 6471 KH Eygelshoven
+                  <FaMapMarkerAlt className="text-evisie-yellow mr-3" />
+                  Pierrestraat 23 6471 KH Eygelshoven
                 </li>
                 <li className="text-black font-bold flex items-center mb-2">
-                  <FaPhoneAlt className="text-evisie-yellow" />
-                  &nbsp;&nbsp;
+                  <FaPhoneAlt className="text-evisie-yellow mr-3" />
+
                   <a
                     target="_blank"
                     className="no-underline text-black font-bold flex items-center"
@@ -53,8 +53,8 @@ class Contact extends React.Component {
                     href="https://www.linkedin.com/in/evelien-heckman-8562aa43/"
                     rel="noreferrer"
                   >
-                    <FaLinkedin className="text-evisie-yellow" />
-                    &nbsp;&nbsp;Connect op Linkedin
+                    <FaLinkedin className="text-evisie-yellow mr-3" />
+                    Connect op Linkedin
                   </a>
                 </li>
               </ul>

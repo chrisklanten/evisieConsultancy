@@ -90,7 +90,7 @@ export const HomePageTemplate = ({ intro, about, reviews, services }) => (
           })`,
           backgroundPosition: `center center`,
           backgroundSize: `cover`,
-          minHeight: `200px`,
+          minHeight: `400px`,
         }}
       >
         <img

@@ -78,7 +78,7 @@ const Navbar = class extends React.Component {
             className={`ml-auto flex ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item px-3" to="/">
+              <Link className="navbar-item px-3 pt-4 sm:pt-0" to="/">
                 Home
               </Link>
               <Link className="navbar-item px-3" to="/diensten">
@@ -89,7 +89,7 @@ const Navbar = class extends React.Component {
               </Link>
               <Link
                 onClick={this.onLinkClick}
-                className="navbar-item rounded py-2 pyx-4 bg-evisie-yellow hover:bg-evisie-yellow-100 text-white font-bold"
+                className="navbar-item rounded py-2 pyx-4 bg-evisie-yellow hover:bg-evisie-yellow-100 text-white font-bold no-underline hover:no-underline transition duration-100 text-center"
                 to="/#contact"
               >
                 Contact
