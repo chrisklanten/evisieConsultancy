@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import arrowsRight from "../img/arrows-right-white.svg";
 import Contact from "../components/Contact";
 import slugify from "react-slugify";
+import arrowsBG from "../img/arrows-right-4.svg";
 
 export const ServicesPageTemplate = ({ title, subtitle, introText, page }) => {
   return (
@@ -37,14 +38,29 @@ export const ServicesPageTemplate = ({ title, subtitle, introText, page }) => {
           <p className="leading-loose">{introText}</p>
         </div>
       </section>
-      <section className="bg-white">
-        <div className="container max-w-3xl py-16 px-6 md:px-0">
+      <section className="bg-white relative">
+        <div
+          className="absolute left-0 z-0"
+          style={{
+            backgroundImage: `url(${arrowsBG})`,
+            backgroundPosition: `center center`,
+            backgroundSize: `cover`,
+            minHeight: `1100px`,
+            minWidth: `100%`,
+            maxWidht: `100vw`,
+            maxHeight: `100vh`,
+            opacity: `0.1`,
+            top: `50%`,
+            transform: `translateY(-50%)`,
+          }}
+        ></div>
+        <div className="container max-w-3xl py-12 px-6 md:px-0 z-10 relative">
           {page.map((block) => (
             <div>
-              <h2 id={slugify(block.title)} className="text-black">
+              <h2 id={slugify(block.title)} className="text-black mt-8">
                 {block.title}
               </h2>
-              <div className="flex">
+              <div className="block sm:flex">
                 {block.columns
                   ? block.columns.map((column, i) => (
                       <div

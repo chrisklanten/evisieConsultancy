@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql, StaticQuery } from "gatsby";
+import { graphql, StaticQuery, Link } from "gatsby";
+import slugify from "react-slugify";
 
 class Services extends React.Component {
   render() {
@@ -26,9 +27,13 @@ class Services extends React.Component {
                 data-sal-delay={i * 150}
                 data-sal-easing="ease"
                 data-sal-duration="600"
-                className="service bg-white py-6 px-4 flex flex-col mr-4 mb-4 justify-center max-w-xs w-full rounded-sm"
+                className="service relative bg-white py-6 px-4 flex flex-col mr-4 mb-4 justify-center max-w-xs w-full rounded-sm hover:shadow-2xl hover:-translate-y-2 hover:transform cursor-pointer transition duration-150 ease-linear delay-75 transform translate-y-6 "
                 key={service.title}
               >
+                <Link
+                  to={`/diensten/#${slugify(service.title)}`}
+                  className="absolute w-full h-full top-0 left-0"
+                ></Link>
                 <h3 className="text-evisie-yellow font-bold text-lg">
                   {service.title}
                 </h3>
