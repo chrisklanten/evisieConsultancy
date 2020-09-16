@@ -25,7 +25,7 @@ export const HomePageTemplate = ({ intro, about, reviews, services }) => (
         alt=""
       />
       <div className="w-full">
-        <div className="p-6 ml-auto py-10 sm:py-20 max-w-lg mr-16">
+        <div className="p-6 ml-auto py-10 sm:py-20 max-w-lg mr-0 sm:mr-16">
           <h1
             data-sal="slide-up"
             data-sal-delay="300"

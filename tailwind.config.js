@@ -6,6 +6,10 @@ module.exports = {
   purge: ["./src/**/*.js", "./src/**/*.jsx", "./src/**/*.ts", "./src/**/*.tsx"],
   theme: {
     extend: {
+      transitionDelay: {
+        0: "0ms",
+        2000: "2000ms",
+      },
       colors: {
         evisie: {
           yellow: "#F8BC4C",

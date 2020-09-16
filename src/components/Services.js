@@ -27,17 +27,19 @@ class Services extends React.Component {
                 data-sal-delay={i * 150}
                 data-sal-easing="ease"
                 data-sal-duration="600"
-                className="service relative bg-white py-6 px-4 flex flex-col mx-2 mb-4 justify-center max-w-xs w-full rounded-sm hover:shadow-2xl hover:-translate-y-2 hover:transform cursor-pointer transition duration-150 ease-linear delay-75 transform translate-y-6 "
                 key={service.title}
+                className="flex items-stretch mx-2 mb-4"
               >
-                <Link
-                  to={`/diensten/#${slugify(service.title)}`}
-                  className="absolute w-full h-full top-0 left-0"
-                ></Link>
-                <h3 className="text-evisie-yellow font-bold text-lg">
-                  {service.title}
-                </h3>
-                <p className="text-sm">{service.breadtext}</p>
+                <div className="service h-full relative bg-white py-6 px-4 flex flex-col justify-center max-w-xs w-full rounded-sm hover:shadow-2xl hover:-translate-y-1 hover:transform cursor-pointer transition duration-150 ease-linear delay-0 transform ">
+                  <Link
+                    to={`/diensten/#${slugify(service.title)}`}
+                    className="absolute w-full h-full top-0 left-0"
+                  ></Link>
+                  <h3 className="text-evisie-yellow font-bold text-lg mt-0">
+                    {service.title}
+                  </h3>
+                  <p className="text-sm">{service.breadtext}</p>
+                </div>
               </div>
             ))}
           </div>
