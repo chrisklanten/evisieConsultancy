@@ -216,7 +216,7 @@ export const pageQuery = graphql`
           cta
           mainImage {
             childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
+              fluid(maxWidth: 950, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -227,7 +227,7 @@ export const pageQuery = graphql`
           mainText
           aboutImage {
             childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
+              fluid(maxWidth: 950, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
