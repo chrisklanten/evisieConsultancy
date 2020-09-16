@@ -74,6 +74,15 @@ h6 {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.layout-child {
+  flex-grow: 1;
+}
+
 #symbol {
   position: absolute;
   top: 50%;
