@@ -1,13 +1,18 @@
 @tailwind base;
 
 h1 {
-  @apply text-3xl leading-tight;
+  @apply text-3xl leading-tight my-4;
 }
 h2 {
-  @apply text-2xl leading-tight mb-4;
+  @apply text-2xl leading-tight my-4;
 }
 h3 {
-  @apply text-xl leading-tight mb-4;
+  @apply text-xl leading-tight my-4;
+}
+h4,
+h5,
+h6 {
+  @apply text-lg leading-tight my-4;
 }
 a {
   @apply text-blue-600 underline;

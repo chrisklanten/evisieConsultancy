@@ -19,7 +19,7 @@ class Services extends React.Component {
       <section className="bg-evisie-gray py-10">
         <div className="container text-center">
           <h2>{services.title}</h2>
-          <p>{services.introText}</p>
+          <p className="px-4">{services.introText}</p>
           <div className="flex items-stretch justify-center mt-4 flex-wrap">
             {services.services.map((service, i) => (
               <div
@@ -27,7 +27,7 @@ class Services extends React.Component {
                 data-sal-delay={i * 150}
                 data-sal-easing="ease"
                 data-sal-duration="600"
-                className="service relative bg-white py-6 px-4 flex flex-col mr-4 mb-4 justify-center max-w-xs w-full rounded-sm hover:shadow-2xl hover:-translate-y-2 hover:transform cursor-pointer transition duration-150 ease-linear delay-75 transform translate-y-6 "
+                className="service relative bg-white py-6 px-4 flex flex-col mx-2 mb-4 justify-center max-w-xs w-full rounded-sm hover:shadow-2xl hover:-translate-y-2 hover:transform cursor-pointer transition duration-150 ease-linear delay-75 transform translate-y-6 "
                 key={service.title}
               >
                 <Link

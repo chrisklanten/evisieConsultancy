@@ -13,6 +13,7 @@ import arrowsRight from "../img/arrows-right-4.svg";
 import arrowsBottom from "../img/arrows-bottom.svg";
 import Contact from "../components/Contact";
 import Services from "../components/Services";
+import MarkdownContent from "../components/MarkdownContent";
 
 export const HomePageTemplate = ({ intro, about, reviews, services }) => (
   <div>
@@ -109,7 +110,7 @@ export const HomePageTemplate = ({ intro, about, reviews, services }) => (
       <div className="w-full">
         <div className="p-6 ml-12 py-10 sm:py-20 max-w-lg mr-12">
           <h1 className=" max-w-sm">{about.title}</h1>
-          <p className="pt-2 pb-4">{about.mainText}</p>
+          <MarkdownContent content={about.mainText} className="pt-2 pb-4" />
         </div>
       </div>
     </section>
@@ -127,7 +128,10 @@ export const HomePageTemplate = ({ intro, about, reviews, services }) => (
           centeredSlides={true}
         >
           {reviews.reviews.map((review, i) => (
-            <SwiperSlide className="swiper-slide rounded-sm review bg-white flex-col justify-center items-center p-8">
+            <SwiperSlide
+              key={i}
+              className="swiper-slide rounded-sm review bg-white flex-col justify-center items-center p-8"
+            >
               <img
                 src={
                   !!review.logo.childImageSharp

@@ -66,7 +66,7 @@ const Navbar = class extends React.Component {
               className={`ml-auto sm:hidden ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               role="button"
-              tabindex={"0"}
+              tabIndex={"0"}
               onClick={() => this.toggleHamburger()}
               onKeyDown={() => this.toggleHamburger()}
             >
