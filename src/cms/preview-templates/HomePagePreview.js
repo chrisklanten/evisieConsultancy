@@ -1,16 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { AboutPageTemplate } from "../../templates/about-page";
+import { HomePageTemplate } from "../../templates/home-page";
 
-const AboutPagePreview = ({ entry, widgetFor }) => {
+const HomePagePreview = ({ entry, widgetFor }) => {
   const data = entry.getIn(["data"]).toJS();
 
   return (
-    <AboutPageTemplate
-      subtitle={data.subtitle}
-      title={data.title}
-      introText={data.introText}
-      page={data.page}
+    <HomePageTemplate
+      intro={data.intro}
+      about={data.about}
+      reviews={data.reviews}
+      services={data.servicesBlock}
       animate={false}
       // title={entry.getIn(["data", "title"])}
       // content={widgetFor("body")}
@@ -34,16 +34,16 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
       //   heading: entry.getIn(['data', 'pricing', 'heading']),
       //   description: entry.getIn(['data', 'pricing', 'description'])
       // }}
-      // page={frontmatter.page}
+      // page={data.page}
     />
   );
 };
 
-AboutPagePreview.propTypes = {
+HomePagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 };
 
-export default AboutPagePreview;
+export default HomePagePreview;

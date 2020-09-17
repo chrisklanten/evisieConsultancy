@@ -5,16 +5,22 @@ import Layout from "../components/Layout";
 import arrowsRight from "../img/arrows-right-white.svg";
 import Contact from "../components/Contact";
 
-export const AboutPageTemplate = ({ title, subtitle, introText, page }) => {
+export const AboutPageTemplate = ({
+  title,
+  subtitle,
+  introText,
+  page,
+  animate = true,
+}) => {
   return (
     <>
       <section className="bg-evisie-gray">
         <div
           className="container max-w-3xl py-16 px-6 md:px-0"
-          data-sal="slide-up"
-          data-sal-delay="150"
-          data-sal-easing="easeOutQuint"
-          data-sal-duration="800"
+          data-sal={animate ? "slide-up" : ""}
+          data-sal-delay={animate ? "150" : ""}
+          data-sal-easing={animate ? "easeOutQuint" : ""}
+          data-sal-duration={animate ? "800" : ""}
         >
           <span className="uppercase font-bold text-white font-xs">
             {title}

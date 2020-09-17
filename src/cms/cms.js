@@ -3,12 +3,14 @@ import uploadcare from "netlify-cms-media-library-uploadcare";
 import cloudinary from "netlify-cms-media-library-cloudinary";
 
 import AboutPagePreview from "./preview-templates/AboutPagePreview";
-import ProductPagePreview from "./preview-templates/ProductPagePreview";
+import HomePagePreview from "./preview-templates/HomePagePreview";
 import IndexPagePreview from "./preview-templates/IndexPagePreview";
+import ServicesPagePreview from "./preview-templates/ServicesPagePreview";
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
 
 CMS.registerPreviewTemplate("index", IndexPagePreview);
 CMS.registerPreviewTemplate("about", AboutPagePreview);
-CMS.registerPreviewTemplate("products", ProductPagePreview);
+CMS.registerPreviewTemplate("home", HomePagePreview);
+CMS.registerPreviewTemplate("services", ServicesPagePreview);

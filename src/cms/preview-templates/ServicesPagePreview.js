@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { AboutPageTemplate } from "../../templates/about-page";
+import { ServicesPageTemplate } from "../../templates/services-page";
 
-const AboutPagePreview = ({ entry, widgetFor }) => {
+const ServicesPagePreview = ({ entry, widgetFor }) => {
   const data = entry.getIn(["data"]).toJS();
 
   return (
-    <AboutPageTemplate
+    <ServicesPageTemplate
       subtitle={data.subtitle}
       title={data.title}
       introText={data.introText}
@@ -34,16 +34,16 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
       //   heading: entry.getIn(['data', 'pricing', 'heading']),
       //   description: entry.getIn(['data', 'pricing', 'description'])
       // }}
-      // page={frontmatter.page}
+      // page={data.page}
     />
   );
 };
 
-AboutPagePreview.propTypes = {
+ServicesPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 };
 
-export default AboutPagePreview;
+export default ServicesPagePreview;

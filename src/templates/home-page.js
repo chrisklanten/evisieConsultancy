@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, Link } from "gatsby";
+import slugify from "react-slugify";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,10 +13,15 @@ import Layout from "../components/Layout";
 import arrowsRight from "../img/arrows-right-4.svg";
 import arrowsBottom from "../img/arrows-bottom.svg";
 import Contact from "../components/Contact";
-import Services from "../components/Services";
 import MarkdownContent from "../components/MarkdownContent";
 
-export const HomePageTemplate = ({ intro, about, reviews, services }) => (
+export const HomePageTemplate = ({
+  intro,
+  about,
+  reviews,
+  services,
+  animate = true,
+}) => (
   <div>
     <section className="flex flex-col sm:flex-row items-stretch relative">
       <img
@@ -27,28 +33,28 @@ export const HomePageTemplate = ({ intro, about, reviews, services }) => (
       <div className="w-full">
         <div className="p-6 ml-auto py-10 sm:py-20 max-w-lg mr-0 sm:mr-16">
           <h1
-            data-sal="slide-up"
-            data-sal-delay="300"
-            data-sal-easing="ease"
-            data-sal-duration="600"
+            data-sal={animate ? "slide-up" : ""}
+            data-sal-delay={animate ? "300" : ""}
+            data-sal-easing={animate ? "ease" : ""}
+            data-sal-duration={animate ? "600" : ""}
             className=" max-w-sm"
           >
             {intro.title}
           </h1>
           <p
-            data-sal="slide-up"
-            data-sal-delay="400"
-            data-sal-easing="ease"
-            data-sal-duration="600"
+            data-sal={animate ? "slide-up" : ""}
+            data-sal-delay={animate ? "400" : ""}
+            data-sal-easing={animate ? "ease" : ""}
+            data-sal-duration={animate ? "600" : ""}
             className="pt-2 pb-4"
           >
             {intro.mainText}
           </p>
           <Link
-            data-sal="slide-up"
-            data-sal-delay="500"
-            data-sal-easing="ease"
-            data-sal-duration="600"
+            data-sal={animate ? "slide-up" : ""}
+            data-sal-delay={animate ? "500" : ""}
+            data-sal-easing={animate ? "ease" : ""}
+            data-sal-duration={animate ? "600" : ""}
             to="/#contact"
             className="rounded-sm transition ease-linear duration-200 inline-block py-3 px-8 text-white font-bold bg-evisie-yellow hover:bg-evisie-yellow-100 no-underline"
           >
@@ -78,7 +84,35 @@ export const HomePageTemplate = ({ intro, about, reviews, services }) => (
       </div>
     </section>
 
-    <Services />
+    <section className="bg-evisie-gray py-10">
+      <div className="container text-center">
+        <h2>{services.title}</h2>
+        <p className="px-4">{services.introText}</p>
+        <div className="flex items-stretch justify-center mt-4 flex-wrap">
+          {services.services.map((service, i) => (
+            <div
+              data-sal={animate ? "slide-up" : ""}
+              data-sal-delay={animate ? i * 150 : ""}
+              data-sal-easing={animate ? "ease" : ""}
+              data-sal-duration={animate ? "600" : ""}
+              key={service.title}
+              className="flex items-stretch mx-2 mb-4"
+            >
+              <div className="service h-full relative bg-white py-6 px-4 flex flex-col justify-center max-w-xs w-full rounded-sm hover:shadow-2xl hover:-translate-y-1 hover:transform cursor-pointer transition duration-150 ease-linear delay-0 transform ">
+                <Link
+                  to={`/diensten/#${slugify(service.title)}`}
+                  className="absolute w-full h-full top-0 left-0"
+                ></Link>
+                <h3 className="text-evisie-yellow font-bold text-lg mt-0">
+                  {service.title}
+                </h3>
+                <p className="text-sm">{service.breadtext}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
 
     <section className="flex flex-col sm:flex-row items-stretch relative">
       <div
@@ -220,6 +254,15 @@ export const pageQuery = graphql`
                 ...GatsbyImageSharpFluid
               }
             }
+          }
+        }
+
+        servicesBlock {
+          title
+          introText
+          services {
+            title
+            breadtext
           }
         }
         about {
