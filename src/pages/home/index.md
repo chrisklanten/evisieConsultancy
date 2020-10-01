@@ -24,9 +24,9 @@ about:
   title: Over Evisie Consultancy
   aboutImage: /img/evisie_consultancy_byliekevroomen-17.jpg
   mainText: >-
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+    In 2019 is Evisie Consultancy opgericht door Evelien Heckman. Haar passie
+    voor de software van AFAS is ontstaan in 2014 tijdens haar stage bij Veolia
+    Transport ten behoeve van de opleiding People and Business Management. 
 
 
     ### Lorem ipsum dolor
@@ -72,6 +72,5 @@ reviews:
       job: HR Systems Specialist bij Coolblue
 contact:
   title: Contact opnemen
-  introText: Benieuwd wat Evisie kan betekenen voor jouw organisatie? Neem dan
-    contact op, ik help je graag!
+  introText: Benieuwd wat Evisie kan betekenen voor jouw organisatie? Neem dan contact op.
 ---
