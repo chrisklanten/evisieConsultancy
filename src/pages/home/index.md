@@ -71,7 +71,7 @@ reviews:
       name: Julia
       job: HR Systems Specialist bij Coolblue
 contact:
-  title: Contact openemen
+  title: Contact opnemen
   introText: Benieuwd wat Evisie kan betekenen voor jouw organisatie? Neem dan
     contact op, ik help je graag!
 ---
