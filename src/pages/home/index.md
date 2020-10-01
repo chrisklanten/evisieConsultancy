@@ -2,7 +2,7 @@
 templateKey: home-page
 intro:
   title: Zo houd je tijd over voor andere zaken
-  mainImage: /img/evisie_consultancy_byliekevroomen-6.jpg
+  mainImage: /img/evisie_consultancy_byliekevroomen-10.jpg
   mainText: |-
     Ik help bedrijven met ondersteuning, begeleiding en
     optimalisatie van AFAS HRM/Payroll. En hier kan nog meer
@@ -18,13 +18,11 @@ servicesBlock:
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     - title: Procesoptimalisatie
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - title: Projectleiding
-      breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - title: Verander management
+    - title: Projectbegeleiding
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 about:
   title: Over Evisie Consultancy
-  aboutImage: /img/evisie_consultancy_byliekevroomen-3.jpg
+  aboutImage: /img/evisie_consultancy_byliekevroomen-17.jpg
   mainText: >-
     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
     eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -38,22 +36,42 @@ about:
 reviews:
   title: Wat zegen klanten over Evisie Consultancy?
   reviews:
-    - title: review
-      review:
-        Evisie Consultancy heeft ons uitstekend geholpen met het automatiseren
-        van onze interne HR processen.
-      name: Chris
-      job: developer
+    - title: Review
+      review: '"In 2019 heb ik als opdrachtgever/klant prettig met Evelien
+        samengewerkt. Ze is een uitstekende professional die haar vak goed
+        verstaat. Een kundige Afas expert die gestructureerd, resultaatgericht
+        werkt en kwaliteit levert. Dit jaar zijn we opnieuw de samenwerking
+        aangegaan. Met Evelien haal je immers een vakvrouw binnen."'
+      name: Rachid
+      job: HR Proces- en Programmamanager bij Vitalis WoonZorg groep / Voormalig Hoofd
+        P&SA bij VieCuri Medisch Centrum
       logo: /img/apple-touch-icon.png
-    - title: review
-      review:
-        Evisie Consultancy heeft ons uitstekend geholpen met het automatiseren
-        van onze interne HR processen.
+    - title: Review
+      review: '"Evelien heb ik leren kennen als een proactieve inhoudelijk expert die
+        constant schakelt tussen de vraag wat haalbaar is in AFAS en wat op
+        lange termijn goed is voor de organisatie. Evelien levert ook vanuit
+        haar persoonlijkheid een enorm positieve bijdrage aan het team. De
+        opbouwende kritiek heeft geholpen bij het doorvoeren van Agile/Scrum.
+        Deze punten in combinatie met haar humor maken haar heel fijn om mee te
+        werken."'
       logo: /img/apple-touch-icon.png
-      name: Chris
-      job: Developer
+      name: Alexander
+      job: Manager HR Systems & Processes bij Coolblue
+    - review: '"Ik heb twee jaar met Evelien samen mogen werken en in die twee jaar
+        heeft zij mij door middel van duidelijke trainingen grotendeels opgeleid
+        in verschillende vlakken op het gebied van AFAS. Evelien is daarnaast in
+        projecten degene geweest die goed naar het geheel kon kijken vanuit het
+        technische perspectief waarbij zij de vraag van de klant altijd voorop
+        stelde. Geen uitdaging was te groot en hierdoor zorgde ze dat er altijd
+        wel een oplossing was. Ik vond het heel prettig om met Evelien samen te
+        werken en ik weet zeker dat ze nog veel mooie dingen gaat opleveren in
+        de toekomst."'
+      logo: /img/apple-touch-icon.png
+      title: Review
+      name: Julia
+      job: HR Systems Specialist bij Coolblue
 contact:
   title: Contact openemen
-  introText: Benieuwd wat Evisie kan betekenen voor je bedrijf? Neem dan contact
-    op, ik help je graag!
+  introText: Benieuwd wat Evisie kan betekenen voor jouw organisatie? Neem dan
+    contact op, ik help je graag!
 ---
