@@ -26,13 +26,18 @@ about:
   mainText: >-
     In 2019 is Evisie Consultancy opgericht door Evelien Heckman. Haar passie
     voor de software van AFAS is ontstaan in 2014 tijdens haar stage bij Veolia
-    Transport ten behoeve van de opleiding People and Business Management. 
+    Transport ten behoeve van de opleiding People and Business Management. In
+    deze periode heeft zij gedurende haar stageopdracht bijgedragen aan een
+    succesvolle AFAS HRM/Payroll implementatie. Sindsdien was het voor haar al
+    snel duidelijk welke kant van HR haar op het lijf was geschreven. 
 
 
-    ### Lorem ipsum dolor
+    ### Achtergrond
 
 
-    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    Na het behalen van mijn HBO diploma wilde ik maar één ding. Aan de slag met AFAS! Ik ben mijn loopbaan begonnen als junior AFAS consultant bij een organisatie die de personele- en financiële administratie verzorgt voor besturen binnen het onderwijs. Daar heb ik de kans gekregen om, door middel van learning on the job, opgeleid te worden door twee AFAS experts. \
+
+    Na 1,5 jaar ontstond bij mij de behoefte om nóg meer te leren van het softwarepakket, ik wilde verder kijken dan alleen de onderwijssector. Dat heeft ertoe doen leiden dat ik in 2017 ben verhuisd van Limburg naar Rotterdam om aan de slag te gaan als HR Systems Specialist bij Coolblue.
 reviews:
   title: Wat zegen klanten over Evisie Consultancy?
   reviews:
