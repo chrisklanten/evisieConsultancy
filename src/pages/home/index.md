@@ -4,13 +4,13 @@ intro:
   title: Zo houd jouw organisatie meer tijd over voor andere zaken
   mainImage: /img/evisie_consultancy_byliekevroomen-10.jpg
   mainText: |
-    Ik help organisaties met het (verder) automatiseren van AFAS HRM. 
+    Ik help organisaties met het (verder) automatiseren van AFAS Profit.
   cta: Ik heb interesse!
 servicesBlock:
   title: Diensten
   introText: Benieuwd waar Evisie bij kan ondersteunen? Bekijk onze diensten!
   services:
-    - title: Implementatie AFAS HRM/Payroll
+    - title: Consultancy
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     - title: Functioneel beheer
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
