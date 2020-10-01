@@ -1,16 +1,14 @@
 ---
 templateKey: home-page
 intro:
-  title: Zo houd je tijd over voor andere zaken
+  title: Zo houd jouw organisatie meer tijd over voor andere zaken
   mainImage: /img/evisie_consultancy_byliekevroomen-10.jpg
-  mainText: |-
-    Ik help bedrijven met ondersteuning, begeleiding en
-    optimalisatie van AFAS HRM/Payroll. En hier kan nog meer
-    tekst komen aangezien er nog ruimte is.
-  cta: Ja, ik wil meer tijd!
+  mainText: |
+    Ik help organisaties met het (verder) automatiseren van AFAS HRM. 
+  cta: Ik heb interesse!
 servicesBlock:
   title: Diensten
-  introText: Benieuwd waar Evisie bij kan helpen? Bekijk onze diensten!
+  introText: Benieuwd waar Evisie bij kan ondersteunen? Bekijk onze diensten!
   services:
     - title: Implementatie AFAS HRM/Payroll
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -38,6 +36,9 @@ about:
     Na het behalen van mijn HBO diploma wilde ik maar één ding. Aan de slag met AFAS! Ik ben mijn loopbaan begonnen als junior AFAS consultant bij een organisatie die de personele- en financiële administratie verzorgt voor besturen binnen het onderwijs. Daar heb ik de kans gekregen om, door middel van learning on the job, opgeleid te worden door twee AFAS experts. \
 
     Na 1,5 jaar ontstond bij mij de behoefte om nóg meer te leren van het softwarepakket, ik wilde verder kijken dan alleen de onderwijssector. Dat heeft ertoe doen leiden dat ik in 2017 ben verhuisd van Limburg naar Rotterdam om aan de slag te gaan als HR Systems Specialist bij Coolblue.
+
+
+    Na 5 jaar aan de gebruikerskant te hebben gezeten, wilde ik zelf aan de slag om andere organisaties (verder) te helpen met AFAS. Inmiddels ben ik nu 1,5 jaar zelfstandig AFAS Specialist en krijg ik enorm veel energie van de diversiteit aan opdrachtgevers en opdrachten. Met mijn verleden als AFAS klant én mijn HR achtergrond, weet ik als geen ander dat het in de praktijk vaak nét even anders werkt. Ik ben daardoor in staat om continu te denken vanuit de klant en zal altijd aan de hand daarvan adviseren over welke oplossingen of keuzes goed zijn voor de organisatie, nu en in de toekomst.
 reviews:
   title: Wat zegen klanten over Evisie Consultancy?
   reviews:
