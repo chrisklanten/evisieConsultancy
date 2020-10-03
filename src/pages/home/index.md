@@ -1,7 +1,7 @@
 ---
 templateKey: home-page
 intro:
-  title: Zo houd jouw organisatie meer tijd over voor andere zaken.
+  title: Zo houd jouw organisatie meer tijd over voor andere zaken
   mainImage: /img/evisie_consultancy_byliekevroomen-10.jpg
   mainText: |
     Ik help organisaties met het (verder) automatiseren van AFAS Profit.
