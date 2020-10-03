@@ -14,8 +14,6 @@ class Contact extends React.Component {
       },
     } = this.props;
 
-    console.log(this.props);
-
     return (
       <section id="contact" className="-mt-6 px-8 sm:px-0 relative">
         <div className="container box-border sm:mx-auto">

@@ -164,7 +164,7 @@ export const HomePageTemplate = ({
           {reviews.reviews.map((review, i) => (
             <SwiperSlide
               key={i}
-              className="swiper-slide rounded-sm review bg-white flex-col justify-center items-center p-8"
+              className="swiper-slide rounded-sm review bg-white flex flex-col justify-center items-center p-8"
             >
               <img
                 src={
@@ -205,7 +205,6 @@ HomePageTemplate.propTypes = {
 };
 
 const HomePage = ({ data }) => {
-  console.log(data);
   const { frontmatter } = data.markdownRemark;
 
   return (

@@ -10,7 +10,8 @@ const Footer = class extends React.Component {
               © {new Date().getFullYear()} Evisie Consultancy
             </p>
             <p className="text-xs md:text-base text-white font-bold py-4 ml-auto flex items-center">
-              Made with&nbsp;<div id="heart"></div>&nbsp;by&nbsp;
+              Made with&nbsp;<span id="heart" className="block"></span>
+              &nbsp;by&nbsp;
               <a
                 title="webdesigner rotterdam freelance"
                 href="https://www.chrisonline.nl"
