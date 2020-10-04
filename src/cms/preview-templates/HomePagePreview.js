@@ -2,12 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import { HomePageTemplate } from "../../templates/home-page";
 
-const HomePagePreview = ({ entry, widgetFor }) => {
+const HomePagePreview = ({ entry, widgetFor, getAsset }) => {
   const data = entry.getIn(["data"]).toJS();
 
   return (
     <HomePageTemplate
       intro={data.intro}
+      image={getAsset(data.intro.mainImage)}
       about={data.about}
       reviews={data.reviews}
       services={data.servicesBlock}

@@ -17,6 +17,7 @@ import MarkdownContent from "../components/MarkdownContent";
 
 export const HomePageTemplate = ({
   intro,
+  mainImage,
   about,
   reviews,
   services,
@@ -66,9 +67,9 @@ export const HomePageTemplate = ({
         className="w-full sm:min-h-0 relative"
         style={{
           backgroundImage: `url(${
-            !!intro.mainImage.childImageSharp
-              ? intro.mainImage.childImageSharp.fluid.src
-              : intro.mainImage
+            !!mainImage.childImageSharp
+              ? mainImage.childImageSharp.fluid.src
+              : mainImage
           })`,
           backgroundPosition: `center center`,
           backgroundSize: `cover`,
@@ -199,18 +200,21 @@ export const HomePageTemplate = ({
 
 HomePageTemplate.propTypes = {
   intro: PropTypes.object,
+  mainImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   about: PropTypes.object,
   reviews: PropTypes.object,
   services: PropTypes.object,
 };
 
 const HomePage = ({ data }) => {
+  console.log(data);
   const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
       <HomePageTemplate
         intro={frontmatter.intro}
+        mainImage={frontmatter.intro.mainImage}
         about={frontmatter.about}
         reviews={frontmatter.reviews}
         services={frontmatter.servicesBlock}
@@ -255,7 +259,6 @@ export const pageQuery = graphql`
             }
           }
         }
-
         servicesBlock {
           title
           introText
