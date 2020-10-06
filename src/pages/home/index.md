@@ -8,7 +8,7 @@ intro:
   cta: Ik heb interesse!
 servicesBlock:
   title: Diensten
-  introText: Benieuwd waar Evisie bij kan ondersteunen? Bekijk onze diensten!
+  introText: Benieuwd waar Evisie bij kan ondersteunen? Bekijk de diensten!
   services:
     - title: Consultancy
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -49,11 +49,13 @@ reviews:
         werkt en kwaliteit levert. Dit jaar zijn we opnieuw de samenwerking
         aangegaan. Met Evelien haal je immers een vakvrouw binnen."'
       name: Rachid
-      job: HR Proces- en Programmamanager bij Vitalis WoonZorg groep / Voormalig Hoofd
+      job:
+        HR Proces- en Programmamanager bij Vitalis WoonZorg groep / Voormalig Hoofd
         P&SA bij VieCuri Medisch Centrum
       logo: /img/apple-touch-icon.png
     - title: Review
-      review: '"Evelien heb ik leren kennen als een proactieve inhoudelijk expert die
+      review:
+        '"Evelien heb ik leren kennen als een proactieve inhoudelijk expert die
         constant schakelt tussen de vraag wat haalbaar is in AFAS en wat op
         lange termijn goed is voor de organisatie. Evelien levert ook vanuit
         haar persoonlijkheid een enorm positieve bijdrage aan het team. De
@@ -63,7 +65,8 @@ reviews:
       logo: /img/apple-touch-icon.png
       name: Alexander
       job: Manager HR Systems & Processes bij Coolblue
-    - review: '"Ik heb twee jaar met Evelien samen mogen werken en in die twee jaar
+    - review:
+        '"Ik heb twee jaar met Evelien samen mogen werken en in die twee jaar
         heeft zij mij door middel van duidelijke trainingen grotendeels opgeleid
         in verschillende vlakken op het gebied van AFAS. Evelien is daarnaast in
         projecten degene geweest die goed naar het geheel kon kijken vanuit het

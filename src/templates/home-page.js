@@ -229,18 +229,8 @@ HomePage.propTypes = {
 
 export default HomePage;
 
-// export const pageQuery = graphql`
-//   query HomePageTemplate {
-//     markdownRemark(frontmatter: { templateKey: { eq: "home-page" } }) {
-//       frontmatter {
-//         title
-//       }
-//     }
-//   }
-// `;
-
 export const pageQuery = graphql`
-  query GetContactBlock {
+  query HomePage {
     markdownRemark(frontmatter: { templateKey: { eq: "home-page" } }) {
       frontmatter {
         intro {
@@ -255,7 +245,6 @@ export const pageQuery = graphql`
             }
           }
         }
-
         servicesBlock {
           title
           introText

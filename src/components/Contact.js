@@ -76,7 +76,7 @@ Contact.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-      query HomePageTemplate {
+      query ContactPage {
         markdownRemark(frontmatter: { templateKey: { eq: "home-page" } }) {
           frontmatter {
             contact {
