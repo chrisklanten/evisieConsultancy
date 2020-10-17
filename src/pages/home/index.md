@@ -13,12 +13,18 @@ servicesBlock:
   introText: Benieuwd waar Evisie bij kan ondersteunen? Bekijk onze diensten!
   services:
     - title: Functioneel beheer
-      breadtext: "Evisie biedt ondersteuning en expertise bij de dagelijkse
-        werkzaamheden in AFAS. "
+      breadtext: Evisie biedt ondersteuning en expertise bij de dagelijkse
+        werkzaamheden in AFAS, het opzetten van een Functioneel beheer
+        organisatie of het opleiden van medewerkers tot volwaardig Functioneel
+        beheerder.
     - title: Optimalisatie
-      breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      breadtext: AFAS blijft doorontwikkelen waardoor de inrichting nooit "af" is.
+        Evisie adviseert over de inrichting van (nieuwe) functionaliteiten en
+        kan bij onvoldoende kennis of capaciteit de volledige inrichting
+        verzorgen.
     - title: Implementatie
-      breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      breadtext: "Binnenkort aan de slag met de software van AFAS of al begonnen met
+        implementeren maar opzoek naar ondersteuning? "
 about:
   title: Over Evisie Consultancy
   aboutImage: /img/evisie_consultancy_byliekevroomen-17.jpg
@@ -37,12 +43,10 @@ about:
     Na het behalen van mijn HBO diploma wilde ik maar één ding. Aan de slag met AFAS! Ik ben mijn loopbaan begonnen als junior AFAS consultant bij een organisatie die de personele- en financiële administratie verzorgt voor besturen binnen het onderwijs. Daar heb ik de kans gekregen om, door middel van learning on the job, opgeleid te worden door twee AFAS experts. 
 
 
-    Na 1,5 jaar ontstond bij mij de behoefte om nóg meer te leren van het softwarepakket, ik wilde verder kijken dan alleen de onderwijssector. Dat heeft ertoe geleid dat ik in 2017 ben verhuisd van Limburg naar Rotterdam om aan de slag te gaan als HR Systems Specialist bij Coolblue.\
-
-    Bij Coolblue heb ik alle ins en outs van de software leren kennen en sindsdien is geen enkele (AFAS) uitdaging te groot.
+    Na 1,5 jaar ontstond bij mij de behoefte om nóg meer te leren van het softwarepakket, ik wilde verder kijken dan alleen de onderwijssector. Dat heeft ertoe geleid dat ik in 2017 ben verhuisd van Limburg naar Rotterdam om aan de slag te gaan als HR Systems Specialist bij Coolblue. Daar heb ik alle ins en outs van de software leren kennen en sindsdien is geen enkele (AFAS) uitdaging te groot.
 
 
-    In 2019 heb ik besloten om andere organisaties (verder) te helpen met AFAS als zelfstandig ondernemer. Met mijn jarenlange ervaring als AFAS klant én mijn HR achtergrond, weet ik als geen ander dat het in de praktijk vaak nét even anders werkt. Ik ben daardoor in staat om continu te denken vanuit de klant en opzoek te gaan naar de meest eenvoudige en efficiënte oplossingen in AFAS die daarbij aansluiten.
+    In 2019 heb ik besloten om andere organisaties (verder) te helpen met AFAS als zelfstandig ondernemer. Met mijn jarenlange ervaring als AFAS klant én mijn HR achtergrond, weet ik als geen ander dat het in de praktijk vaak nét even anders werkt. Ik ben daardoor in staat om continu te denken vanuit de wensen en behoeften van de klant en opzoek te gaan naar de meest eenvoudige en efficiënte oplossingen in AFAS die daarbij aansluiten.
 reviews:
   title: Wat zegen klanten over Evisie Consultancy?
   reviews:
@@ -67,19 +71,6 @@ reviews:
       logo: /img/apple-touch-icon.png
       name: Alexander
       job: Manager HR Systems & Processes bij Coolblue
-    - review: '"Ik heb twee jaar met Evelien samen mogen werken en in die twee jaar
-        heeft zij mij door middel van duidelijke trainingen grotendeels opgeleid
-        in verschillende vlakken op het gebied van AFAS. Evelien is daarnaast in
-        projecten degene geweest die goed naar het geheel kon kijken vanuit het
-        technische perspectief waarbij zij de vraag van de klant altijd voorop
-        stelde. Geen uitdaging was te groot en hierdoor zorgde ze dat er altijd
-        wel een oplossing was. Ik vond het heel prettig om met Evelien samen te
-        werken en ik weet zeker dat ze nog veel mooie dingen gaat opleveren in
-        de toekomst."'
-      logo: /img/apple-touch-icon.png
-      title: Review
-      name: Julia
-      job: HR Systems Specialist bij Coolblue
 contact:
   title: Contact opnemen
   introText: Benieuwd wat Evisie kan betekenen voor jouw organisatie? Neem dan contact op.
