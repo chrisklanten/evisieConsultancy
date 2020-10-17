@@ -4,7 +4,7 @@ intro:
   title: Zo houd jouw (HR) organisatie meer tijd over voor andere zaken
   mainImage: /img/evisie_consultancy_byliekevroomen-10.jpg
   mainText: |+
-    Ik help organisaties hun (HR) doelen te bereiken met behulp van e-HRM.
+    Ik help organisaties hun HR doelen te bereiken met behulp van e-HRM.
 
 
   cta: Ik heb interesse!
@@ -41,7 +41,7 @@ about:
     ### Achtergrond
 
 
-    Na het behalen van mijn HBO diploma wilde ik maar één ding. Aan de slag met AFAS! Ik ben mijn loopbaan begonnen als junior AFAS consultant bij een organisatie die de personele- en financiële administratie verzorgt voor besturen binnen het onderwijs. Daar heb ik de kans gekregen om, door middel van learning on the job, opgeleid te worden door twee AFAS experts. 
+    Na het behalen van mijn HRM diploma wilde ik maar één ding. Aan de slag met AFAS! Ik ben mijn loopbaan begonnen als junior AFAS consultant bij een organisatie die de personele- en financiële administratie verzorgt voor besturen binnen het onderwijs. Daar heb ik de kans gekregen om, door middel van learning on the job, opgeleid te worden door AFAS experts. 
 
 
     Na 1,5 jaar ontstond bij mij de behoefte om nóg meer te leren van het softwarepakket, ik wilde verder kijken dan alleen de onderwijssector. Dat heeft ertoe geleid dat ik in 2017 ben verhuisd van Limburg naar Rotterdam om aan de slag te gaan als HR Systems Specialist bij Coolblue. Daar heb ik alle ins en outs van de software leren kennen en sindsdien is geen enkele (AFAS) uitdaging te groot.
