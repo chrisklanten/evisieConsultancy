@@ -23,8 +23,9 @@ servicesBlock:
         kan bij onvoldoende kennis of capaciteit de volledige inrichting
         verzorgen.
     - title: Implementatie
-      breadtext: "Binnenkort aan de slag met de software van AFAS of al begonnen met
-        implementeren maar opzoek naar ondersteuning? "
+      breadtext: Binnenkort aan de slag met de software van AFAS of al begonnen met
+        implementeren maar opzoek naar ondersteuning? Evisie kan ingezet worden
+        als intern consultant of projectleider.
 about:
   title: Over Evisie Consultancy
   aboutImage: /img/evisie_consultancy_byliekevroomen-17.jpg
