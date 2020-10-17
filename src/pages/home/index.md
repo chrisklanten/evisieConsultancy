@@ -1,22 +1,23 @@
 ---
 templateKey: home-page
 intro:
-  title: Zo houd jouw organisatie meer tijd over voor andere zaken
+  title: Zo houd jouw (HR) organisatie meer tijd over voor andere zaken
   mainImage: /img/evisie_consultancy_byliekevroomen-10.jpg
-  mainText: |
-    Ik help organisaties met het (verder) automatiseren van AFAS Profit.
+  mainText: |+
+    Ik help organisaties hun (HR) doelen te bereiken met behulp van e-HRM.
+
+
   cta: Ik heb interesse!
 servicesBlock:
   title: Diensten
   introText: Benieuwd waar Evisie bij kan ondersteunen? Bekijk onze diensten!
   services:
-    - title: Consultancy
-      breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     - title: Functioneel beheer
+      breadtext: "Evisie biedt ondersteuning en expertise bij de dagelijkse
+        werkzaamheden in AFAS. "
+    - title: Optimalisatie
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - title: Procesoptimalisatie
-      breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - title: Projectbegeleiding
+    - title: Implementatie
       breadtext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 about:
   title: Over Evisie Consultancy
@@ -27,18 +28,21 @@ about:
     Transport ten behoeve van de opleiding People and Business Management. In
     deze periode heeft zij gedurende haar stageopdracht bijgedragen aan een
     succesvolle AFAS HRM/Payroll implementatie. Sindsdien was het voor haar al
-    snel duidelijk welke kant van HR haar op het lijf was geschreven. 
+    snel duidelijk welke kant van HR haar op het lijf is geschreven. 
 
 
     ### Achtergrond
 
 
-    Na het behalen van mijn HBO diploma wilde ik maar één ding. Aan de slag met AFAS! Ik ben mijn loopbaan begonnen als junior AFAS consultant bij een organisatie die de personele- en financiële administratie verzorgt voor besturen binnen het onderwijs. Daar heb ik de kans gekregen om, door middel van learning on the job, opgeleid te worden door twee AFAS experts. \
-
-    Na 1,5 jaar ontstond bij mij de behoefte om nóg meer te leren van het softwarepakket, ik wilde verder kijken dan alleen de onderwijssector. Dat heeft ertoe doen leiden dat ik in 2017 ben verhuisd van Limburg naar Rotterdam om aan de slag te gaan als HR Systems Specialist bij Coolblue.
+    Na het behalen van mijn HBO diploma wilde ik maar één ding. Aan de slag met AFAS! Ik ben mijn loopbaan begonnen als junior AFAS consultant bij een organisatie die de personele- en financiële administratie verzorgt voor besturen binnen het onderwijs. Daar heb ik de kans gekregen om, door middel van learning on the job, opgeleid te worden door twee AFAS experts. 
 
 
-    Na 5 jaar aan de gebruikerskant te hebben gezeten, wilde ik zelf aan de slag om andere organisaties (verder) te helpen met AFAS. Inmiddels ben ik nu 1,5 jaar zelfstandig AFAS Specialist en krijg ik enorm veel energie van de diversiteit aan opdrachtgevers en opdrachten. Met mijn verleden als AFAS klant én mijn HR achtergrond, weet ik als geen ander dat het in de praktijk vaak nét even anders werkt. Ik ben daardoor in staat om continu te denken vanuit de klant en zal altijd aan de hand daarvan adviseren over welke oplossingen of keuzes goed zijn voor de organisatie, nu en in de toekomst.
+    Na 1,5 jaar ontstond bij mij de behoefte om nóg meer te leren van het softwarepakket, ik wilde verder kijken dan alleen de onderwijssector. Dat heeft ertoe geleid dat ik in 2017 ben verhuisd van Limburg naar Rotterdam om aan de slag te gaan als HR Systems Specialist bij Coolblue.\
+
+    Bij Coolblue heb ik alle ins en outs van de software leren kennen en sindsdien is geen enkele (AFAS) uitdaging te groot.
+
+
+    In 2019 heb ik besloten om andere organisaties (verder) te helpen met AFAS als zelfstandig ondernemer. Met mijn jarenlange ervaring als AFAS klant én mijn HR achtergrond, weet ik als geen ander dat het in de praktijk vaak nét even anders werkt. Ik ben daardoor in staat om continu te denken vanuit de klant en opzoek te gaan naar de meest eenvoudige en efficiënte oplossingen in AFAS die daarbij aansluiten.
 reviews:
   title: Wat zegen klanten over Evisie Consultancy?
   reviews:
