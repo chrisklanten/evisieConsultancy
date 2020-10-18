@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Evisie Consultancy",
-    description: "Evisie Consultancy",
+    description: "Evisie Consultancy helpt organisaties hun HR doelen te bereiken met behulp van e-HRM. Zo houd jouw (HR) organisatie meer tijd over voor andere zaken.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
