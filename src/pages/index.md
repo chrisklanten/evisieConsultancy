@@ -18,14 +18,12 @@ servicesBlock:
         organisatie of het opleiden van medewerkers tot volwaardig Functioneel
         beheerder.
     - title: Optimalisatie
-      breadtext:
-        AFAS blijft doorontwikkelen waardoor de inrichting nooit "af" is.
+      breadtext: AFAS blijft doorontwikkelen waardoor de inrichting nooit "af" is.
         Evisie adviseert over de inrichting van (nieuwe) functionaliteiten en
         kan bij onvoldoende kennis of capaciteit de volledige inrichting
         verzorgen.
     - title: Implementatie
-      breadtext:
-        Binnenkort aan de slag met de software van AFAS of al begonnen met
+      breadtext: Binnenkort aan de slag met de software van AFAS of al begonnen met
         implementeren maar opzoek naar ondersteuning? Evisie kan ingezet worden
         als intern consultant of projectleider.
 about:
@@ -51,7 +49,7 @@ about:
 
     In 2019 heb ik besloten om andere organisaties (verder) te helpen met AFAS als zelfstandig ondernemer. Met mijn jarenlange ervaring als AFAS klant én mijn HR achtergrond, weet ik als geen ander dat het in de praktijk vaak nét even anders werkt. Ik ben daardoor in staat om continu te denken vanuit de wensen en behoeften van de klant en opzoek te gaan naar de meest eenvoudige en efficiënte oplossingen in AFAS die daarbij aansluiten.
 reviews:
-  title: Wat zegen klanten over Evisie Consultancy?
+  title: Wat zeggen klanten over Evisie Consultancy?
   reviews:
     - title: Review
       review: '"In 2019 heb ik als opdrachtgever/klant prettig met Evelien
@@ -64,8 +62,7 @@ reviews:
         P&SA bij VieCuri Medisch Centrum
       logo: /img/apple-touch-icon.png
     - title: Review
-      review:
-        '"Evelien heb ik leren kennen als een proactieve inhoudelijk expert die
+      review: '"Evelien heb ik leren kennen als een proactieve inhoudelijk expert die
         constant schakelt tussen de vraag wat haalbaar is in AFAS en wat op
         lange termijn goed is voor de organisatie. Evelien levert ook vanuit
         haar persoonlijkheid een enorm positieve bijdrage aan het team. De
