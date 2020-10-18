@@ -78,13 +78,15 @@ const Navbar = class extends React.Component {
             className={`ml-auto flex ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item px-3 pt-4 sm:pt-0" to="/home">
+              <Link className="navbar-item px-3 pt-4 sm:pt-0" to="/">
                 Home
               </Link>
-              <Link className="navbar-item px-3" to="/diensten">
+              <Link
+                onClick={this.onLinkClick} className="navbar-item px-3" to="/#diensten">
                 Diensten
               </Link>
-              <Link className="navbar-item px-3" to="/over-evisie">
+              <Link
+                onClick={this.onLinkClick} className="navbar-item px-3" to="/#over-evisie">
                 Over EvisieConsultancy
               </Link>
               <Link

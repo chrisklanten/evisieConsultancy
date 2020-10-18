@@ -1,32 +1,50 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { IndexPageTemplate } from '../../templates/index-page'
+import React from "react";
+import PropTypes from "prop-types";
+import { HomePageTemplate } from "../../templates/home-page";
 
-const IndexPagePreview = ({ entry, getAsset }) => {
-  const data = entry.getIn(['data']).toJS()
+const HomePagePreview = ({ entry, widgetFor }) => {
+  const data = entry.getIn(["data"]).toJS();
 
-  if (data) {
-    return (
-      <IndexPageTemplate
-        image={getAsset(data.image)}
-        title={data.title}
-        heading={data.heading}
-        subheading={data.subheading}
-        description={data.description}
-        intro={data.intro || { blurbs: [] }}
-        mainpitch={data.mainpitch || {}}
-      />
-    )
-  } else {
-    return <div>Loading...</div>
-  }
-}
+  return (
+    <HomePageTemplate
+      intro={data.intro}
+      about={data.about}
+      reviews={data.reviews}
+      services={data.servicesBlock}
+      animate={false}
+      
+      // title={entry.getIn(["data", "title"])}
+      // content={widgetFor("body")}
 
-IndexPagePreview.propTypes = {
+      // subtitle={entry.getIn(["data", "subtitle"])}
+      // title={entry.getIn(["data", "title"])}
+      // introText={entry.getIn(["data", "introText"])}
+      // page={entry.getIn(["data", "page"])}
+
+      // page={{
+      //   text_block: {
+      //     title: entry.getIn(["data", "page", "text_block", "title"])
+      //     title: entry.getIn(["data", "page", "text_block", "clu"])
+      //   },
+      //   text_block: {
+      //     title: entry.getIn(["data", "page", "text_block", "title"])
+      //   }
+      // }}
+
+      // pricing={{
+      //   heading: entry.getIn(['data', 'pricing', 'heading']),
+      //   description: entry.getIn(['data', 'pricing', 'description'])
+      // }}
+      // page={data.page}
+    />
+  );
+};
+
+HomePagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
-  getAsset: PropTypes.func,
-}
+  widgetFor: PropTypes.func,
+};
 
-export default IndexPagePreview
+export default HomePagePreview;

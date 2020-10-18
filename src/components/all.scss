@@ -97,11 +97,17 @@ h6 {
 }
 
 .service {
-  max-width: 170px;
+  max-width: 230px; 
 }
 
 .review {
-  max-width: 325px;
+  @screen sm {
+    max-width: 325px;
+  }
+}
+
+.no-hyphens {
+  hyphens: manual; 
 }
 
 .swiper-container {
