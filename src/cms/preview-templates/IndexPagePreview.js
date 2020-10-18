@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { HomePageTemplate } from "../../templates/home-page";
+import { HomePageTemplate } from "../../templates/index-page";
 
 const HomePagePreview = ({ entry, widgetFor }) => {
   const data = entry.getIn(["data"]).toJS();
