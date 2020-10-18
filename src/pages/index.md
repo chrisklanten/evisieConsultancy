@@ -78,4 +78,7 @@ reviews:
 contact:
   title: Contact opnemen
   introText: Benieuwd wat Evisie kan betekenen voor jouw organisatie? Neem dan contact op.
+  address: Pierrestraat 23 6471 KH Eygelshoven
+  phone: 06 27201455
+  linkedin: Connect op Linkedin!
 ---

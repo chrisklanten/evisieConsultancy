@@ -16,21 +16,15 @@ collections:
     label: "Pagina's"
     files:
       - file: "src/pages/index.md"
-        label: "Index pagina"
-        name: "index"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: "Title", name: "title", widget: "string"}
-      - file: "src/pages/home/index.md"
         label: "Home pagina"
         name: "home"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Intro, name: intro, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Hoofd afbeelding, name: mainImage, widget: image},{label: Hoofd tekst, name: mainText, widget: text},{label: Call to action, name: cta, widget: string}]}
           - {label: Diensten Block, name: servicesBlock, widget: object, fields: [{label: Titel, name: title, widget: string}, {label: Introtekst, name: introText, widget: text}, {label: Diensten, name: services, widget: list, fields: [{label: Titel, name: title, widget: string}, {label: Broodtekst, name: breadtext, widget: string}]}]}
           - {label: Over Evisie, name: about, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Afbeelding, name: aboutImage, widget: image},{label: Over Evisie tekst, name: mainText, widget: markdown}]}
           - {label: Review block, name: reviews, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Reviews, name: reviews, widget: list, fields: [{label: Titel, name: title, widget: string}, {label: Logo, name: logo, widget: image},{label: Review, name: review, widget: text},{label: Naam, name: name, widget: string},{label: Functie, name: job, widget: string}]}]}
-          - {label: Contact, name: contact, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Tekst, name: introText, widget: text}]}
+          - {label: Contact, name: contact, widget: object, fields: [{label: Titel, name: title, widget: string},{label: Tekst, name: introText, widget: text},{label: Adres, name: address, widget: string},{label: Telefoon, name: phone, widget: string},{label: Linkedin, name: linkedin, widget: string}]}
       - file: "src/pages/over-evisie/index.md"
         label: "Over Evisie Consultancy"
         name: "about"

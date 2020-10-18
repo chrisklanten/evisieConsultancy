@@ -30,7 +30,7 @@ class Contact extends React.Component {
               <ul>
                 <li className="text-black font-bold flex items-center mb-2">
                   <FaMapMarkerAlt className="text-evisie-yellow mr-3" />
-                  Pierrestraat 23 6471 KH Eygelshoven
+                  {contact.address}
                 </li>
                 <li className="text-black font-bold flex items-center mb-2">
                   <FaPhoneAlt className="text-evisie-yellow mr-3" />
@@ -41,7 +41,7 @@ class Contact extends React.Component {
                     href="tel:+31627201455"
                     rel="noreferrer"
                   >
-                    06 27201455
+                    {contact.phone}
                   </a>
                 </li>
                 <li className="text-black font-bold mb-2">
@@ -52,7 +52,7 @@ class Contact extends React.Component {
                     rel="noreferrer"
                   >
                     <FaLinkedin className="text-evisie-yellow mr-3" />
-                    Connect op Linkedin
+                    {contact.linkedin}
                   </a>
                 </li>
               </ul>
@@ -82,6 +82,9 @@ export default () => (
             contact {
               title
               introText
+              address
+              phone
+              linkedin
             }
           }
         }
