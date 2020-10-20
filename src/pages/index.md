@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 intro:
-  title: Zo houd jouw (HR) organisatie meer tijd over voor andere zaken
+  title: Zo houd uw (HR) organisatie meer tijd over voor andere zaken
   mainImage: /img/evisie_consultancy_byliekevroomen-10.jpg
   mainText: |+
     Ik help organisaties hun HR doelen te bereiken met behulp van e-HRM.
@@ -30,12 +30,12 @@ about:
   title: Over Evisie Consultancy
   aboutImage: /img/evisie_consultancy_byliekevroomen-17.jpg
   mainText: >-
-    In 2019 is Evisie Consultancy opgericht door Evelien Heckman. Haar passie
-    voor de software van AFAS is ontstaan in 2014 tijdens haar stage bij Veolia
-    Transport ten behoeve van de opleiding People and Business Management. In
-    deze periode heeft zij gedurende haar stageopdracht bijgedragen aan een
-    succesvolle AFAS HRM/Payroll implementatie. Sindsdien was het voor haar al
-    snel duidelijk welke kant van HR haar op het lijf is geschreven. 
+    In 2019 heb ik Evisie Consultancy opgericht. Mijn passie voor de software
+    van AFAS is ontstaan in 2014 tijdens mijn stage bij Veolia Transport ten
+    behoeve van de opleiding People and Business Management. In deze periode heb
+    ik gedurende mijn stageopdracht bijgedragen aan een succesvolle AFAS
+    HRM/Payroll implementatie. Sindsdien was het al snel duidelijk welke kant
+    van HR mij op het lijf is geschreven. 
 
 
     ### Achtergrond
