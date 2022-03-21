@@ -58,8 +58,7 @@ reviews:
         werkt en kwaliteit levert. Dit jaar zijn we opnieuw de samenwerking
         aangegaan. Met Evelien haal je immers een vakvrouw binnen."'
       name: Rachid
-      job: HR Proces- en Programmamanager bij Vitalis Woonzorg Groep / Voormalig Hoofd
-        P&SA bij VieCuri Medisch Centrum
+      job: Hoofd Personeel- en Salarisadministratie bij VieCuri Medisch Centrum
       logo: /img/apple-touch-icon.png
     - title: Review
       review: '"Evelien heb ik leren kennen als een proactieve inhoudelijk expert die
