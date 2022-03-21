@@ -75,7 +75,7 @@ reviews:
 contact:
   title: Contact opnemen
   introText: Benieuwd wat Evisie kan betekenen voor jouw organisatie? Neem dan contact op.
-  address: Pierrestraat 23 6471 KH Eygelshoven
+  address: van Doesburglaan 2 6374PK Landgraaf
   phone: 06 27201455
   linkedin: Connect op Linkedin!
 ---
