@@ -58,7 +58,7 @@ reviews:
         werkt en kwaliteit levert. Dit jaar zijn we opnieuw de samenwerking
         aangegaan. Met Evelien haal je immers een vakvrouw binnen."'
       name: Rachid
-      job: HR Proces- en Programmamanager bij Vitalis WoonZorg groep / Voormalig Hoofd
+      job: HR Proces- en Programmamanager bij Vitalis Woonzorg Groep / Voormalig Hoofd
         P&SA bij VieCuri Medisch Centrum
       logo: /img/apple-touch-icon.png
     - title: Review
@@ -72,6 +72,17 @@ reviews:
       logo: /img/apple-touch-icon.png
       name: Alexander
       job: Manager HR Systems & Processes bij Coolblue
+    - title: Review
+      logo: /img/apple-touch-icon.png
+      name: Jeroen
+      job: Manager HR bij Vitalis Woonzorg Groep
+      review: '"Wat een aanwinst voor je organisatie! Evelien combineert haar
+        positieve kijk, tomeloze energie en humor fantastisch met haar
+        uitgebreide vakkennis. Hierdoor is ze niet alleen een prettige
+        (tijdelijke) collega en teamlid, maar creëert ze ook veel beter en
+        duurzamer draagvlak voor veranderingen waarbij AFAS als systeem een rol
+        speelt. Ze verlaat ons nu, maar onze achterdeur staat altijd voor haar
+        open!" '
 contact:
   title: Contact opnemen
   introText: Benieuwd wat Evisie kan betekenen voor jouw organisatie? Neem dan contact op.
