@@ -95,7 +95,7 @@ reviews:
 
         Ze was dus direct een collega en deel van ons team, en creëerde daardoor direct draagvlak bij de directe gebruiker en zorgt voor een positieve flow in het team. Inmiddels heeft zij met haar vakkennis al de nodige verbeteringen doorgevoerd, maar gelukkig is de koek nog niet op!
 
-        Naast de procesoptimalisatie in AFAS hopen wij de komende maanden nog te kunnen leren van Evelien, aangezien ook kennisoverdracht door Evelien verzorgd wordt, waardoor dit ook in ons team geborgd wordt. Vol vertrouwen en plezier kijken wij dan ook uit naar de komende maanden samenwerking met Eveline, een professional in hart en nieren, maar bovenal een fijne collega om mee samen te werken!
+        Naast de procesoptimalisatie in AFAS hopen wij de komende maanden nog te kunnen leren van Evelien, aangezien ook kennisoverdracht door Evelien verzorgd wordt, waardoor dit ook in ons team geborgd wordt. Vol vertrouwen en plezier kijken wij dan ook uit naar de komende maanden samenwerking met Evelien, een professional in hart en nieren, maar bovenal een fijne collega om mee samen te werken!
       name: Marco
       job: Teamleider Personeelsadministratie bij VISTA college
       logo: /img/apple-touch-icon.png
