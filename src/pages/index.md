@@ -99,6 +99,20 @@ reviews:
       name: Marco
       job: Teamleider Personeelsadministratie bij VISTA college
       logo: /img/apple-touch-icon.png
+    - review: "In 2021 hebben wij AFAS HRM Payroll geïmplementeerd. Vanaf dag 1 heeft
+        zij een belangrijke bijdrage geleverd aan de succesvolle livegang en
+        heeft dit doorgezet tot haar allerlaatste dag afgelopen juni 2022. Ze
+        heeft een positieve en kritische blik en haar kennisniveau van zowel HR
+        processen als de AFAS omgeving is zeer hoog. Ze is altijd bereid om deze
+        kennis te delen en zet de kennis in door altijd met een werkbaar advies
+        of een oplossing te komen. Daarnaast is zij ook nog eens een fijne
+        collega in het team! Bij een referentiecheck krijg je vaak de vraag: zou
+        je haar opnieuw inzetten als je de mogelijkheid had? Bij Evelien is het
+        antwoord volmondig JA. "
+      name: Marloes
+      job: HR Projectmanager bij Sanquin
+      title: Review
+      logo: /img/apple-touch-icon.png
 contact:
   title: Contact opnemen
   introText: Benieuwd wat Evisie kan betekenen voor jouw organisatie? Neem dan contact op.
