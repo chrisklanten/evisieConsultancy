@@ -52,37 +52,6 @@ reviews:
   title: Wat zeggen klanten over Evisie Consultancy?
   reviews:
     - title: Review
-      review: '"In 2019 heb ik als opdrachtgever/klant prettig met Evelien
-        samengewerkt. Ze is een uitstekende professional die haar vak goed
-        verstaat. Een kundige Afas expert die gestructureerd, resultaatgericht
-        werkt en kwaliteit levert. Dit jaar zijn we opnieuw de samenwerking
-        aangegaan. Met Evelien haal je immers een vakvrouw binnen."'
-      name: Rachid
-      job: Hoofd Personeel- en Salarisadministratie bij VieCuri Medisch Centrum
-      logo: /img/apple-touch-icon.png
-    - title: Review
-      review: '"Evelien heb ik leren kennen als een proactieve inhoudelijk expert die
-        constant schakelt tussen de vraag wat haalbaar is in AFAS en wat op
-        lange termijn goed is voor de organisatie. Evelien levert ook vanuit
-        haar persoonlijkheid een enorm positieve bijdrage aan het team. De
-        opbouwende kritiek heeft geholpen bij het doorvoeren van Agile/Scrum.
-        Deze punten in combinatie met haar humor maken haar heel fijn om mee te
-        werken."'
-      logo: /img/apple-touch-icon.png
-      name: Alexander
-      job: Manager HR Systems & Processes bij Coolblue
-    - title: Review
-      logo: /img/apple-touch-icon.png
-      name: Jeroen
-      job: Manager HR bij Vitalis Woonzorg Groep
-      review: '"Wat een aanwinst voor je organisatie! Evelien combineert haar
-        positieve kijk, tomeloze energie en humor fantastisch met haar
-        uitgebreide vakkennis. Hierdoor is ze niet alleen een prettige
-        (tijdelijke) collega en teamlid, maar creëert ze ook veel beter en
-        duurzamer draagvlak voor veranderingen waarbij AFAS als systeem een rol
-        speelt. Ze verlaat ons nu, maar onze achterdeur staat altijd voor haar
-        open!" '
-    - title: Review
       review: >-
         In 2021 hebben wij Evelien benaderd om ons te helpen met de
         optimalisatie van ons AFAS HRM pakket.
@@ -112,6 +81,26 @@ reviews:
       name: Marloes
       job: HR Projectmanager bij Sanquin
       title: Review
+      logo: /img/apple-touch-icon.png
+    - title: Review
+      logo: /img/apple-touch-icon.png
+      name: Jeroen
+      job: Manager HR bij Vitalis Woonzorg Groep
+      review: '"Wat een aanwinst voor je organisatie! Evelien combineert haar
+        positieve kijk, tomeloze energie en humor fantastisch met haar
+        uitgebreide vakkennis. Hierdoor is ze niet alleen een prettige
+        (tijdelijke) collega en teamlid, maar creëert ze ook veel beter en
+        duurzamer draagvlak voor veranderingen waarbij AFAS als systeem een rol
+        speelt. Ze verlaat ons nu, maar onze achterdeur staat altijd voor haar
+        open!" '
+    - title: Review
+      review: '"In 2019 heb ik als opdrachtgever/klant prettig met Evelien
+        samengewerkt. Ze is een uitstekende professional die haar vak goed
+        verstaat. Een kundige Afas expert die gestructureerd, resultaatgericht
+        werkt en kwaliteit levert. Dit jaar zijn we opnieuw de samenwerking
+        aangegaan. Met Evelien haal je immers een vakvrouw binnen."'
+      name: Rachid
+      job: Hoofd Personeel- en Salarisadministratie bij VieCuri Medisch Centrum
       logo: /img/apple-touch-icon.png
 contact:
   title: Contact opnemen
