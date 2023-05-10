@@ -2,7 +2,7 @@
 templateKey: index-page
 intro:
   title: Zo houd uw (HR) organisatie meer tijd over voor andere zaken
-  mainImage: /img/evisie_consultancy_byliekevroomen-10.jpg
+  mainImage: /img/marlotenevelien_ctwc_v2-10.jpg
   mainText: |+
     Ik help organisaties hun HR doelen te bereiken met behulp van e-HRM.
 
@@ -28,7 +28,7 @@ servicesBlock:
         als intern consultant of projectleider.
 about:
   title: Over Evisie Consultancy
-  aboutImage: /img/evisie_consultancy_byliekevroomen-17.jpg
+  aboutImage: /img/evisie_byliekevroomen-11.jpg
   mainText: >-
     In 2019 heb ik Evisie Consultancy opgericht. Mijn passie voor de software
     van AFAS is ontstaan in 2014 tijdens mijn stage bij Veolia Transport ten
@@ -41,7 +41,7 @@ about:
     ### Achtergrond
 
 
-    Na het behalen van mijn HRM diploma wilde ik maar één ding. Aan de slag met AFAS! Ik ben mijn loopbaan begonnen als junior AFAS consultant bij een organisatie die de personele- en financiële administratie verzorgt voor besturen binnen het onderwijs. Daar heb ik de kans gekregen om, door middel van learning on the job, opgeleid te worden door AFAS expert. 
+    Na het behalen van mijn HRM diploma wilde ik maar één ding. Aan de slag met AFAS! Ik ben mijn loopbaan begonnen als junior AFAS consultant binnen het onderwijs. 
 
 
     Na 1,5 jaar ontstond bij mij de behoefte om nóg meer te leren van het softwarepakket, ik wilde verder kijken dan alleen de onderwijssector. Dat heeft ertoe geleid dat ik in 2017 ben verhuisd van Limburg naar Rotterdam om aan de slag te gaan als HR Systems Specialist bij Coolblue. Daar heb ik alle ins en outs van de software leren kennen en sindsdien is geen enkele (AFAS) uitdaging te groot.
@@ -93,15 +93,6 @@ reviews:
         duurzamer draagvlak voor veranderingen waarbij AFAS als systeem een rol
         speelt. Ze verlaat ons nu, maar onze achterdeur staat altijd voor haar
         open!" '
-    - title: Review
-      review: '"In 2019 heb ik als opdrachtgever/klant prettig met Evelien
-        samengewerkt. Ze is een uitstekende professional die haar vak goed
-        verstaat. Een kundige Afas expert die gestructureerd, resultaatgericht
-        werkt en kwaliteit levert. Dit jaar zijn we opnieuw de samenwerking
-        aangegaan. Met Evelien haal je immers een vakvrouw binnen."'
-      name: Rachid
-      job: Hoofd Personeel- en Salarisadministratie bij VieCuri Medisch Centrum
-      logo: /img/apple-touch-icon.png
 contact:
   title: Contact opnemen
   introText: Benieuwd wat Evisie kan betekenen voor jouw organisatie? Neem dan contact op.
