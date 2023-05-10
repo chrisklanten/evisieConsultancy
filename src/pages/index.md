@@ -53,31 +53,25 @@ reviews:
   reviews:
     - title: Review
       review: >-
-        In 2021 hebben wij Evelien benaderd om ons te helpen met de
-        optimalisatie van ons AFAS HRM pakket.
-
-        Wat een voltreffer is dit geworden.
-
-        Vanaf de eerste dag heeft Evelien impact gemaakt.
+        "Vanaf de eerste dag heeft Evelien impact gemaakt.
 
         Door haar positief, kritische blik, en haar zeer uitgebreide vakkennis kon ze ons al snel van advies voorzien. Daarnaast werd zij door haar spontaniteit, gezonde dosis humor en positieve karakter al snel één van de onzen.
 
-        Ze was dus direct een collega en deel van ons team, en creëerde daardoor direct draagvlak bij de directe gebruiker en zorgt voor een positieve flow in het team. Inmiddels heeft zij met haar vakkennis al de nodige verbeteringen doorgevoerd, maar gelukkig is de koek nog niet op!
+        Ze was direct een collega en deel van ons team, en creëerde daardoor direct draagvlak bij de directe gebruiker en zorgt voor een positieve flow in het team. Inmiddels heeft zij met haar vakkennis al de nodige verbeteringen doorgevoerd, maar gelukkig is de koek nog niet op!
 
-        Naast de procesoptimalisatie in AFAS hopen wij de komende maanden nog te kunnen leren van Evelien, aangezien ook kennisoverdracht door Evelien verzorgd wordt, waardoor dit ook in ons team geborgd wordt. Vol vertrouwen en plezier kijken wij dan ook uit naar de komende maanden samenwerking met Evelien, een professional in hart en nieren, maar bovenal een fijne collega om mee samen te werken!
+        Wij hopen de komende maanden nog te kunnen leren van Evelien, aangezien ook kennisoverdracht door haar verzorgd wordt. Vol vertrouwen en plezier kijken wij uit naar de komende maanden samenwerking met Evelien, een professional in hart en nieren, maar bovenal een fijne collega om mee samen te werken!"
       name: Marco
       job: Teamleider Personeelsadministratie bij VISTA college
       logo: /img/apple-touch-icon.png
-    - review: "In 2021 hebben wij AFAS HRM Payroll geïmplementeerd. Vanaf dag 1 heeft
-        zij een belangrijke bijdrage geleverd aan de succesvolle livegang en
-        heeft dit doorgezet tot haar allerlaatste dag afgelopen juni 2022. Ze
-        heeft een positieve en kritische blik en haar kennisniveau van zowel HR
-        processen als de AFAS omgeving is zeer hoog. Ze is altijd bereid om deze
-        kennis te delen en zet de kennis in door altijd met een werkbaar advies
-        of een oplossing te komen. Daarnaast is zij ook nog eens een fijne
-        collega in het team! Bij een referentiecheck krijg je vaak de vraag: zou
-        je haar opnieuw inzetten als je de mogelijkheid had? Bij Evelien is het
-        antwoord volmondig JA. "
+    - review: '"Vanaf dag 1 heeft Evelien een belangrijke bijdrage geleverd aan een
+        succesvolle livegang en heeft dit doorgezet tot haar allerlaatste dag.
+        Ze heeft een positieve en kritische blik en haar kennisniveau van zowel
+        HR processen als de AFAS omgeving is zeer hoog. Ze is altijd bereid om
+        deze kennis te delen en zet de kennis in door altijd met een werkbaar
+        advies of een oplossing te komen. Daarnaast is zij ook nog eens een
+        fijne collega in het team! Bij een referentiecheck krijg je vaak de
+        vraag: zou je haar opnieuw inzetten als je de mogelijkheid had? Bij
+        Evelien is het antwoord volmondig JA."'
       name: Marloes
       job: HR Projectmanager bij Sanquin
       title: Review
